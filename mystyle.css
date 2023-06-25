@@ -1,6 +1,7 @@
 html {
   margin:    0 auto;
   max-width: 900px;
+  margin-bottom: 40px;
 }
 
 body {
@@ -14,7 +15,11 @@ h1 {
   font-weight: 600;
 }
 
-p, li {
+p {
+  font-size: 18px;
+}
+
+li {
   font-size: 18px;
 }
 
