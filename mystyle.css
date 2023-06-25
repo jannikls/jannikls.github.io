@@ -11,6 +11,19 @@ p {
   font-size: 13px;
 }
 
+
+.enumeration {
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+.enumeration li::before {
+  content: "-";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 @media (min-width:200px) {
   body {
     padding-left: 20px;
