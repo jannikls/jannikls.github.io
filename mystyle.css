@@ -1,26 +1,70 @@
 html {
   margin:    0 auto;
-  max-width: 900px;
+  max-width: 800px;
   margin-bottom: 40px;
+}
+
+::-moz-selection { /* Code for Firefox */
+  background: #001830;
+  color: #fff,
+}
+
+::selection {
+  background: #001830;
+  color: #fff;
 }
 
 body {
   background-color: #ffffff;
-  font-family: 'EB Garamond', serif;
 }
 
 h1 {
-  font-size: 30px;
   padding-top: 100px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.3em;
 }
 
 p {
   font-size: 18px;
+  font-family: Newsreader, sans-serif;
+  line-height: 1.3em;
 }
+
+
+a {
+  color: #000;
+  border-bottom: 1px rgba(34, 34, 34, .69);
+  padding-bottom: 0;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all .2s;
+  display: inline;
+}
+
+a:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+.grey-text a {
+  border-bottom-style: dotted;
+}
+
+.grey-text a:hover {
+  color: rgba(34, 34, 34, .62);
+  border-bottom-style: solid;
+  border-bottom-color: rgba(34, 34, 34, .62);
+}
+
+.grey-text.spacer {
+  margin-top: 60px;
+}
+
 
 li {
   font-size: 18px;
+  line-height: 1.6em;
 }
 
 
