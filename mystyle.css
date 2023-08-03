@@ -25,6 +25,22 @@ h1 {
   line-height: 1.3em;
 }
 
+h2 {
+  padding-top: 30px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.3em;
+  font-style: italic;
+}
+
+h3 {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.3em;
+  font-style: italic;
+}
+
 p {
   font-size: 18px;
   font-family: Newsreader, sans-serif;
