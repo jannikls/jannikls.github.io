@@ -4,6 +4,7 @@ html {
   margin-bottom: 40px;
 }
 
+
 ::-moz-selection { /* Code for Firefox */
   background: #001830;
   color: #fff,
@@ -16,6 +17,18 @@ html {
 
 body {
   background-color: #ffffff;
+}
+
+.post-info {
+  font-size: 0.9em;
+  margin: 20px 0;
+  color: #555;
+  font-family: Newsreader, sans-serif;
+}
+
+.author,
+.date {
+  margin-right: 20px;
 }
 
 h1 {
