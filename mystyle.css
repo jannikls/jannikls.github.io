@@ -133,6 +133,7 @@ li {
   .flex-container {
       flex-wrap: wrap;
       gap: 10px;
+      padding-right: 0px;
       }
     h1.pic{
       text-align: center;
