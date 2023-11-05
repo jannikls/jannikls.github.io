@@ -116,6 +116,7 @@ p.special-line-spacing {
 p {
   margin-top: 0;
   margin-bottom: 0.7em;
+  line-height: calc(1em + 0.7em); /* Adjust 16px as needed to match the default margin of paragraphs */
 }
 
 .circular--square {
