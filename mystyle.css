@@ -154,6 +154,12 @@ body::before, body::after {
       gap: 10px;
       padding-right: 0px;
       }
+      .flex-container > div:nth-child(1) {
+        order: 2;
+    }
+    .flex-container > div:nth-child(2) {
+        order: 1;
+    }
     h1.pic{
       text-align: center;
     }
