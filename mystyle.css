@@ -1,12 +1,21 @@
+/* General Styles */
 html {
-  margin:    0 auto;
-  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--body-color);
+}
+
+:root {
+  --header-color: #2f2f2f;
+  --header-font-color: #ffffff;
+  --body-color: #fff;
+  --body-font-color: #000;
 }
 
 
-::-moz-selection { /* Code for Firefox */
+/* Text Selection Styles */
+::-moz-selection {
   background: #001830;
-  color: #fff,
+  color: #fff;
 }
 
 ::selection {
@@ -14,8 +23,7 @@ html {
   color: #fff;
 }
 
-
-
+/* Text and Heading Styles */
 .post-info {
   font-size: 0.9em;
   margin: 20px 0;
@@ -29,14 +37,224 @@ html {
 }
 
 h1 {
-  padding-top: 120px;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 0px;
+  margin: 0; /* Reset the margin */
+  color: var(--header-font-color);
 }
 
-h1.pic {
-  padding-top: 0px;
+
+p {
+  font-size: 18px;
+  font-family: 'Alice', serif;
+  line-height: 1.3em;
 }
+
+p.header {
+  color: var(--header-font-color);
+}
+
+a {
+  color: var(--body-font-color);
+  border-bottom: 1px rgba(34, 34, 34, 0.69);
+  padding-bottom: 0;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.2s;
+  display: inline;
+}
+
+a:hover {
+  color: var(--body-font-color);
+  border-bottom: 1px solid #000;
+}
+
+.grey-text a {
+  border-bottom-style: dotted;
+}
+
+.grey-text a:hover {
+  color: rgba(34, 34, 34, 0.62);
+  border-bottom-style: solid;
+  border-bottom-color: rgba(34, 34, 34, 0.62);
+}
+
+.grey-text.spacer {
+  margin-top: 0;
+}
+
+li {
+  font-size: 18px;
+  line-height: 1.3em;
+}
+
+/* List Styles */
+.enumeration {
+  list-style-type: none;
+  padding-left: 3em;
+}
+
+.enumeration li::before {
+  content: "-";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Paragraph Spacing */
+p.special-line-spacing {
+  line-height: calc(1em + 0.7em); /* Adjust as needed */
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.7em;
+}
+
+/* Image Styles */
+.circular--square {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto; /* Horizontally centers the image within its parent */
+
+}
+
+/* Flexbox Layout for Header and Main Content */
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* flex-start or space-between*/
+}
+
+body::before,
+body::after {
+  content: "";
+  flex: 1;
+}
+
+/* Body Content Styles */
+.main-content {
+  padding: 20px;
+}
+
+.body-container {
+  max-width: 700px; /* Set max width for body content */
+  margin: 0 auto; /* Center the body content */
+}
+
+/* Header Styles */
+.header-bg {
+  background-color: var(--header-color); /* Set header background color */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+
+.header-content {
+  max-width: 700px; /* Set maximum width for the content */
+  margin: 0 auto; /* Center align the content */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  
+}
+
+.content {
+  /*flex: 1 1 45%; /* Adjust the width as needed */
+  max-width: 100%; /* Allow content to adapt within the flex container */
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Vertically centers the image */
+  
+}
+
+.content:nth-child(1) {
+  flex: 7; /* Adjust the first column size */
+  max-width: 500px;
+  display: flex; /* Add display flex */
+  flex-direction: column; /* Set flex-direction to column */
+  justify-content: center; /* Center content vertically */
+  align-items: flex-start; /* Align content to the start (top) */
+  /* Other styles */
+}
+
+
+.content:nth-child(2) {
+  flex: 3; /* Adjust the second column size */
+
+  /* Other styles */
+} 
+
+/* Media Query for Responsive Design */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-right: 0;
+  }
+  
+  .flex-container > div:nth-child(1) {
+    order: 2;
+  }
+  
+  .flex-container > div:nth-child(2) {
+    order: 1;
+  }
+
+  .content:nth-child(2) {
+    display: flex; /* Add display flex */
+    flex-direction: column; /* Set flex-direction to column */
+    justify-content: center; /* Center content vertically */
+    align-items: flex-start; /* Align content to the start (top) */
+    /* Other styles */
+  }
+  
+  h1.pic {
+    text-align: left;
+  }
+  
+  p.pic,
+  p,
+  h1.pic,h1,
+  .h2,
+  .h3,
+  .post-info {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+}
+
+
+@media (min-width: 800px) {
+  .flex-container {
+    display: flex;
+    justify-content: space-between; /* Align items with space between */
+  }
+  
+  .content {
+    width: calc(50% - 20px); /* Adjust the width of each content box */
+    max-width: 700px; /* Limit maximum width */
+  }
+  
+  .content:nth-child(1) {
+    text-align: left; /* Align the text to the left */
+    margin-right: auto; /* Auto margin to push text to the left */
+  }
+  
+  .content:nth-child(2) {
+    text-align: right; /* Align the image to the right */
+    margin-left: auto; /* Auto margin to push image to the right */
+  }
+}
+
 
 h2 {
   padding-top: 30px;
@@ -53,127 +271,3 @@ h3 {
   line-height: 1.3em;
   font-style: italic;
 }
-
-p {
-  font-size: 18px;
-  font-family: Newsreader, sans-serif;
-  line-height: 1.3em;
-}
-
-
-a {
-  color: #000;
-  border-bottom: 1px rgba(34, 34, 34, .69);
-  padding-bottom: 0;
-  font-weight: 400;
-  text-decoration: none;
-  transition: all .2s;
-  display: inline;
-}
-
-a:hover {
-  color: #000;
-  border-bottom: 1px solid #000;
-}
-
-.grey-text a {
-  border-bottom-style: dotted;
-}
-
-.grey-text a:hover {
-  color: rgba(34, 34, 34, .62);
-  border-bottom-style: solid;
-  border-bottom-color: rgba(34, 34, 34, .62);
-}
-
-.grey-text.spacer {
-  margin-top: 0px;
-}
-
-
-li {
-  font-size: 18px;
-  line-height: 1.3em;
-}
-
-
-.enumeration {
-  list-style-type: none;
-  padding-left: 3em;
-}
-
-.enumeration li::before {
-  content: "-";
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
-
-p.special-line-spacing {
-  line-height: calc(1em + 0.7em); /* Adjust 16px as needed to match the default margin of paragraphs */
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 0.7em;
-}
-
-.circular--square {
-  border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-
-}
-
-html, body {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-body::before, body::after {
-  content: "";
-  flex: 1;
-}
-
-.flex-container {
-  padding-top: 0px;
-  padding-bottom: 10px;
-  padding-right: 50px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  gap: 60px;
-  align-items: center;
-}
-
-@media (max-width: 800px) {
-  .flex-container {
-      flex-wrap: wrap;
-      gap: 10px;
-      padding-right: 0px;
-      }
-      .flex-container > div:nth-child(1) {
-        order: 2;
-    }
-    .flex-container > div:nth-child(2) {
-        order: 1;
-    }
-    h1.pic{
-      text-align: center;
-    }
-    p.pic{
-      text-align: center;
-      margin-left: 15px;
-      margin-right: 15px;
-    }
-    p {
-      margin-left: 15px;
-      margin-right: 15px;
-    }
-    .h1, .h2, .h3, .post-info {
-      margin-left: 15px;
-      margin-right: 15px;
-    }
-  }
