@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="sidebar.css">
+
   <!-- Google Tag Manager -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YLJV9FYFLD"></script>
   <script>
@@ -37,6 +39,30 @@
   </header>
 
 
+  <main class="main-content">
+    <div class="flex-container">
+      <div class="categories">
+        <ul>
+          <li><a href="#" onclick="showSection('about-section')">About</a></li>
+          <li><a href="#" onclick="showSection('writing-section')">Writing</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <section id="about-section">
+          <h2>About</h2>
+          <p>Your About content goes here.</p>
+        </section>
+
+        <section id="writing-section" style="display: none;">
+          <h2>Writing</h2>
+          <p>Your Writing content goes here.</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
