@@ -9,6 +9,7 @@ html {
   --header-font-color: #ffffff;
   --body-color: #fff;
   --body-font-color: #000;
+  --space-header: 20px;
 }
 
 
@@ -153,9 +154,8 @@ body::after {
 /* Header Styles */
 .header-bg {
   background-color: var(--header-color); /* Set header background color */
-  padding-top: 30px;
-  padding-bottom: 30px;
-  
+  padding-top: var(--space-header);
+  padding-bottom: var(--space-header);
 }
 
 .header-content {
