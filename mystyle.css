@@ -149,6 +149,7 @@ body::after {
 .body-container {
   max-width: 700px; /* Set max width for body content */
   margin: 0 auto; /* Center the body content */
+  padding: 10px;
 }
 
 /* Header Styles */
@@ -156,6 +157,7 @@ body::after {
   background-color: var(--header-color); /* Set header background color */
   padding-top: var(--space-header);
   padding-bottom: var(--space-header);
+
 }
 
 .header-content {
@@ -211,7 +213,6 @@ body::after {
   .content {
     box-sizing: border-box;
     width: 100%;
-    padding: 0 15px;
   }
 
   .content:nth-child(1), .content:nth-child(2) {
@@ -221,11 +222,12 @@ body::after {
 
   .content:nth-child(2) .circular--square {
     display: block;
+    margin: 0 auto;
   }
 
   .content:nth-child(2) {
     margin: 0 auto; /* Auto margin to push image to the right */
-    margin-right: 20px;
+    margin: 0 15px;
     }
   
   .flex-container > div:nth-child(1) {
@@ -240,9 +242,7 @@ body::after {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    text-align: left;
-    margin: 0 15px;
+    align-items: center;
   }
   
   h1.pic {
@@ -280,6 +280,7 @@ body::after {
     max-width: 600px;
     margin: 0 -15px;
   }
+
 
   .flex-container {
     gap: 0px;
