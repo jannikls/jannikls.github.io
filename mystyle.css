@@ -168,7 +168,8 @@ body::after {
   justify-content: space-between;
   gap: 60px;
   width: 100%;
-  margin: 0;
+  margin: 0 -15px;
+  width: calc(100% + 30px);
 }
 
 .content {
@@ -187,22 +188,45 @@ body::after {
   justify-content: center; /* Center content vertically */
   align-items: flex-start; /* Align content to the start (top) */
   /* Other styles */
+  text-align: left; /* Align the text to the left */
+  margin-right: auto; /* Auto margin to push text to the left */
 }
 
 
 .content:nth-child(2) {
   flex: 3; /* Adjust the second column size */
-
+  text-align: right; /* Align the image to the right */
+  margin-left: auto; /* Auto margin to push image to the right */
   /* Other styles */
 } 
 
 /* Media Query for Responsive Design */
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .flex-container {
     flex-wrap: wrap;
     gap: 10px;
     padding-right: 0;
   }
+
+  .content {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .content:nth-child(1), .content:nth-child(2) {
+    width: 100%; /* Adjust the second column size */
+    min-width: 100%;
+  } 
+
+  .content:nth-child(2) .circular--square {
+    display: block;
+  }
+
+  .content:nth-child(2) {
+    margin: 0 auto; /* Auto margin to push image to the right */
+    margin-right: 20px;
+    }
   
   .flex-container > div:nth-child(1) {
     order: 2;
@@ -213,11 +237,12 @@ body::after {
   }
 
   .content:nth-child(2) {
-    display: flex; /* Add display flex */
-    flex-direction: column; /* Set flex-direction to column */
-    justify-content: center; /* Center content vertically */
-    align-items: flex-start; /* Align content to the start (top) */
-    /* Other styles */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    margin: 0 15px;
   }
   
   h1.pic {
@@ -226,7 +251,7 @@ body::after {
   
   p.pic,
   p,
-  h1.pic,h1,
+  h1.pic, h1,
   .h2,
   .h3,
   .post-info {
@@ -234,32 +259,31 @@ body::after {
     margin-right: 15px;
   }
 
-  .h1{
+  .h1 {
     text-align: center;
   }
 
+  .content {
+    width: calc(50% - 10px); /* Adjust width for two columns */
+    margin: 0 5px; /* Adjust margin for symmetry */
+  }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* TABLET MODE */
+  .h1 {
+    text-align: left;
+  }
 
-@media (min-width: 800px) {
-  .flex-container {
-    display: flex;
-    justify-content: space-between; /* Align items with space between */
-  }
-  
   .content {
-    width: calc(50% - 20px); /* Adjust the width of each content box */
-    max-width: 700px; /* Limit maximum width */
+    width: calc(50%-5px);
+    max-width: 600px;
+    margin: 0 -15px;
   }
-  
-  .content:nth-child(1) {
-    text-align: left; /* Align the text to the left */
-    margin-right: auto; /* Auto margin to push text to the left */
-  }
-  
-  .content:nth-child(2) {
-    text-align: right; /* Align the image to the right */
-    margin-left: auto; /* Auto margin to push image to the right */
+
+  .flex-container {
+    gap: 0px;
+    margin: 0 -5px;
   }
 }
 
