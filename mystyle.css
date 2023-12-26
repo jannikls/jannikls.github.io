@@ -183,8 +183,8 @@ body::after {
 }
 
 .content:nth-child(1) {
-  flex: 7; /* Adjust the first column size */
-  max-width: 500px;
+  flex: 8; /* Adjust the first column size */
+  max-width: 600px;
   display: flex; /* Add display flex */
   flex-direction: column; /* Set flex-direction to column */
   justify-content: center; /* Center content vertically */
