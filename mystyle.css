@@ -57,6 +57,10 @@ p.header {
   color: var(--header-font-color);
 }
 
+p {
+  color: var(--body-font-color);
+}
+
 a {
   color: var(--body-font-color);
   border-bottom: 1px rgba(34, 34, 34, 0.69);
@@ -151,6 +155,8 @@ body::after {
   margin: 0 auto; /* Center the body content */
   padding: 10px;
 }
+
+
 
 /* Header Styles */
 .header-bg {
