@@ -207,7 +207,9 @@ body::after {
 
 .body-container .blog {
   background-color: #f7f7f7;
-  max-width: 650px;
+  max-width: 600px;
+  margin: 0 auto; /* Center the body content */
+  padding: 10px;
 }
 
 
