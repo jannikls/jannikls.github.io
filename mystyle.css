@@ -65,6 +65,7 @@ li {
   color: #333; /* Dark gray color instead of black */
   font-weight: normal; /* Default font weight */
   padding-bottom: 5px; /* Adding padding for better spacing */
+  text-align: justify;
 }
 
 
@@ -75,6 +76,9 @@ li {
   color: #333; /* Dark gray color instead of black */
   font-weight: normal; /* Default font weight */
   padding-bottom: 5px; /* Adding padding for better spacing */
+  text-align: justify;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 /* Table Styles */
@@ -321,6 +325,10 @@ body::after {
   .content {
     width: calc(50% - 10px); /* Adjust width for two columns */
     margin: 0 5px; /* Adjust margin for symmetry */
+  }
+
+  .p {
+    padding: 0px;
   }
 }
 
