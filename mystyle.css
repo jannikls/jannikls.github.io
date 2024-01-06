@@ -77,8 +77,8 @@ li {
   font-weight: normal; /* Default font weight */
   padding-bottom: 5px; /* Adding padding for better spacing */
   text-align: justify;
-  padding-left: 0px;
-  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* Table Styles */
