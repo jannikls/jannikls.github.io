@@ -6,8 +6,6 @@ permalink: "/germany-siliconvalley.html/"
 categories: [blog]
 ---
 
-# From Germany to Silicon Valley
-
 I am currently in the process of obtaining a visa to move to the Bay Area. I was recently reflecting on all the ways this was not inevitable and how much my relationship to Silicon Valley has changed in the past five years.
 
 Growing up in Germany, I dismissed Silicon Valley when I was around age 14. Having never left Europe, I found its allure to many smart people quite puzzling. The aesthetics seemed off, the discourse overly simplistic, and the underlying ideology a bit strange. I was sceptical of Silicon Valley's reputation for agglomerating exceptional talent.
