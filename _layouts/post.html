@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <meta NAME="robots" CONTENT="noindex,nofollow">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Cardo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/post.css' | relative_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YLJV9FYFLD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-YLJV9FYFLD');
+    </script>
+
+  </head>
+
+<body>
+
+  <header class="header-bg">
+    <div class="header-content">
+      <h1>{{ page.title }}</h1>
+      <div class="post-info">
+        <span class="date-tag">Published: {{ page.date | date: "%B %-d, %Y" }}</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="body-container">
+      <div class="grey-text">
+        {{ content }}
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>

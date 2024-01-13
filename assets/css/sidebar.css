@@ -1,0 +1,55 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-content {
+    padding-top: 60px; /* Adjust this value based on header height */
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  
+  .categories {
+    width: 150px; /* Adjust the width as needed */
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+  .categories ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categories ul li {
+    margin-bottom: 10px;
+  }
+  
+  .categories ul li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Style for sections */
+  section {
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
