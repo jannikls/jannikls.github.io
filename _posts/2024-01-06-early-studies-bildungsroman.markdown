@@ -2,7 +2,8 @@
 layout: post
 title:  "An Early Studies Bildungsroman"
 date:   2024-01-06 09:00:00 +0800
-perma-link: /early-studies/
+permalink: "/early-studies.html"
+slug: "early-studies"
 ---
 
 

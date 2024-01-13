@@ -2,6 +2,7 @@
 layout: post
 title: "From Germany to Silicon Valley"
 date: 2023-10-05 00:00:00 -0700
+permalink: "/germany-siliconvalley.html/"
 categories: [blog]
 ---
 
