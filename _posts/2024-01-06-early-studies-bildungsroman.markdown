@@ -47,15 +47,7 @@ There is a distinct memory that I can point to about when it became clear to me 
 
 Looking back, here are some of the options I considered and my thinking about them.
 
-| Option                                               | Action/Justification                                                                                                       |
-| ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Figuring out a way to start university studies earlier (either in parallel to school or without a high school diploma) | Did it. Easily one of the best decisions I made.                                                                            |
-| Figuring out a way to meet high school graduation requirements without attending high school for the nominal period | I did not figure out a feasible way at the time, but I should have probably pursued it in hindsight.                        |
-| Skipping grades                                       | Did it in 6th grade. It was certainly the right decision and I would probably skip more grades, if I were to do school again. |
-| Self-study through books and/or online lectures       | Did it (and do it up to this day). Great for students that have a tutor/advisor and already know what they want to study. More challenging if you are just getting started. |
-| Advanced courses (“enrichment”) within the school    | Did it. I did not find it particularly challenging.                                                                         |
-| Studying at a school for gifted children               | Was offered but turned it down because I did not want to be in a boarding school at the time and did not think that these places were that different in curriculum and actual learning outcomes. Also, they were incredibly expensive. |
-
+![Option space in Germany](/assets/img/early-studies-1.png){: width="100%" }
 
 ### Why do most people decide not to do early studies?
 
