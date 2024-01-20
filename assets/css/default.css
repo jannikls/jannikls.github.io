@@ -22,8 +22,8 @@ article {
 
 
 :root {
-  --header-color: #2f2f2f;
-  --header-font-color: #ffffff;
+  --header-color: #fff;
+  --header-font-color: #2f2f2f;
   --body-color: #fff;
   --body-font-color: #000;
   --space-header: 30px;
