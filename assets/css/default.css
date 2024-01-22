@@ -248,7 +248,7 @@ body::after {
 }
 
 .header-content {
-  max-width: 670px; /* Set maximum width for the content */
+  max-width: 700px; /* Set maximum width for the content */
   margin: 0 auto; /* Center align the content */
 }
 
@@ -261,6 +261,8 @@ body::after {
   width: calc(100% + 30px);
 }
 
+
+
 .content {
   /*flex: 1 1 45%; /* Adjust the width as needed */
   max-width: 100%; /* Allow content to adapt within the flex container */
@@ -271,7 +273,7 @@ body::after {
 
 .content:nth-child(1) {
   flex: 8; /* Adjust the first column size */
-  max-width: 600px;
+  /*max-width: 600px;
   display: flex; /* Add display flex */
   flex-direction: column; /* Set flex-direction to column */
   justify-content: center; /* Center content vertically */
@@ -289,8 +291,47 @@ body::after {
   /* Other styles */
 } 
 
+
+
+
+
+
+
+@media (min-width: 730px) and (max-width: 1024px) {
+  /* TABLET MODE */
+  .h1 {
+    text-align: left;
+  }
+
+  /*.content {
+    width: calc(50%-5px);
+    max-width: 600px;
+    margin: 0 -15px;
+    padding-right: 40px;
+    padding-left: 5px;
+  }*/
+
+  .content {
+    max-width: 600px;
+  }
+
+  .flex-container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 /* Media Query for Responsive Design */
-@media (max-width: 767px) {
+@media (max-width: 730px) {
 
   .content:nth-child(1) {
     max-width: 767px;
@@ -304,17 +345,21 @@ body::after {
     width: 100%;
   }
 
+  .header-content {
+    max-width: 670px; /* Set maximum width for the content */
+    margin: 0 0; /* Center align the content */
+  }
+
   .content {
     box-sizing: border-box;
     width: 100vw;
-    margin: 0;
   }
 
   .content:nth-child(1), .content:nth-child(2) {
     width: 100vw; /* Adjust the second column size */
     min-width: 100vw;
     padding-left: 0px;
-    margin: 0px;
+    margin: 0 0;
   } 
 
   .content:nth-child(1) .circular--square {
@@ -356,27 +401,6 @@ body::after {
     padding-right: 5px;
     padding-top: 20px;
     }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  /* TABLET MODE */
-  .h1 {
-    text-align: left;
-  }
-
-  .content {
-    width: calc(50%-5px);
-    max-width: 600px;
-    margin: 0 -15px;
-    padding-right: 40px;
-    padding-left: 5px;
-  }
-
-
-  .flex-container {
-    gap: 0px;
-    margin: 0 -5px;
-  }
 }
 
 
