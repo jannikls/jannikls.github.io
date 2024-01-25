@@ -121,4 +121,4 @@ Second, I think it would be valuable to compile more resources on what areas of 
 
 Third, I would like to learn more from the experiences of others and build support systems for them – especially those in contexts like Germany where the systems are idiosyncratic. If you’re interested in this too, please reach out.
 
-**Thanks** to Zi C. (Sam) Huang for helpful contribution and editing .
+**Thanks** to Zi C. (Sam) Huang for helpful contributions and editing.

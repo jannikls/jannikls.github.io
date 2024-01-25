@@ -1,3 +1,13 @@
+:root {
+  --header-color: #fff;
+  --header-font-color: #2f2f2f;
+  --body-color: #fff;
+  --body-font-color: #000;
+  --space-header: 0px;
+}
+
 .header-content {
   max-width: 700px;
+  padding-bottom: 0px;
+  margin-bottom: -30px;
 }
