@@ -204,7 +204,7 @@ In 1889, Edison lost majority control of his company in a merger that led to the
 
 In 1890, Thomas Edison's dogmatic stance against AC was the main reason for the continuation of the _War of the Currents_. However, it slowly became obvious that Edison’s decisions were actively hurting his electricity company as [Edison’s profits were much lower than Westinghouse’s profits.](https://www.myussi.com/glossary/thomas-a-edison/) Edison was under increasing pressure from inside the company and increasingly from J.P. Morgan himself.
 
-Three years later in 1892, Edison’s financier J.P. Morgan decided to oust Edison. Morgan engineered a deal behind the backs of the management of _Edison General Electric_ and Thomas Edison to merge with AC-proponent _Thomson-Houston._ He _put Thomson-Houston’s board in charge of the new company that was now called _General Electric_. Edison’s name was removed and the new management decided that General Electric would use AC in the future.
+Three years later in 1892, Edison’s financier J.P. Morgan decided to oust Edison. Morgan engineered a deal behind the backs of the management of _Edison General Electric_ and Thomas Edison to merge with AC-proponent _Thomson-Houston._ He put Thomson-Houston’s board in charge of the new company that was now called _General Electric_. Edison’s name was removed and the new management decided that General Electric would use AC in the future.
 
 The rapid consolidation between 1888 and 1893 was driven by a financial downturn in 1890/91, the [Baring crisis](https://en.wikipedia.org/wiki/Baring_crisis), that caused all electricity companies major cash flow issues as lenders called back their loans.
 
