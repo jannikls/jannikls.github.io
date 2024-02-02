@@ -33,7 +33,7 @@ Building on these discoveries, from the 1870s onwards, Thomas Edison and George 
 The rivalry aimed not only at establishing an efficient electric grid but also at fulfilling the broader societal aspiration of bringing electric light to every home in the United States.
 
 
-### Technological intrinsics: AC versus DC<a id="technological-intrinsics-ac-versus-dc"></a>
+### Technological Intrinsics: AC versus DC<a id="technological-intrinsics-ac-versus-dc"></a>
 
 The core challenge of building the energy grid of the United States was figuring out a way to transfer electricity over long distances without energy losses rendering it economically and technically infeasible. Energy transmission always involves losses because of resistive, capacitive, and inductive line losses. Transferring electricity over hundreds of miles requires small losses which were not technically achievable using DC at the time. This is what was called the **distance problem** of energy transmission.
 
@@ -90,7 +90,7 @@ What later turned out to be the biggest problems for DC adoption – the distanc
 As we will see, Thomas Edison’s strong initial position did not lead to success as the impact of DC’s disadvantages became stronger over time as distribution widened.
 
 
-### The rapid rise of AC<a id="the-rapid-rise-of-ac"></a>
+### The Rapid Rise of AC<a id="the-rapid-rise-of-ac"></a>
 
 AC saw a rapid rise in the late 19th century in the US. In 1882, AC electricity transmission and AC devices had not been shown to work in the US yet. In 1893, Westinghouse won two incredibly important bids with his AC technology: The electrification of The Chicago World's Fair in 1893 and the Niagara Falls generation project in 1893. By 1902, the AC system installed at the [Niagara Falls provided **one-fifth** of the American electric power supply](https://www.freeingenergy.com/edison-vs-tesla-how-electrocuting-elephants-and-other-stunts-led-to-the-modern-grid-part-2-of-3/). How was this rapid rise of AC possible?
 
@@ -140,7 +140,7 @@ After 1889, public opinion started to slowly turn against Edison as Edison’s s
 The _War of the Currents_ involved various lawsuits and indicates a clear tendency for corporate competition to become more legalized.
 
 
-### Patent monopolies<a id="patent-monopolies"></a>
+### Patent Monopolies<a id="patent-monopolies"></a>
 
 In the late 19th century, the US saw a series of inventions with the potential to change the day-to-day of every American – the telegraph, the telephone, the lightbulb, and electricity, etc.
 
@@ -157,7 +157,7 @@ The opportunity to start an electricity monopoly from scratch protected by wide-
 These incentives were also reason enough to pursue numerous and more complex patent lawsuits for competitors of patent holders in an attempt to prevent or break their monopolies.
 
 
-### Edison’s patent infringement lawsuit<a id="edisons-patent-infringement-lawsuit"></a>
+### Edison’s Patent Infringement Lawsuit<a id="edisons-patent-infringement-lawsuit"></a>
 
 In Edison’s attempt to build a DC monopoly, Edison sued Westinghouse in 1888 over patent infringements for the incandescent light bulb in an attempt to take Westinghouse<sub><</sub>’s products off the market. 
 
@@ -170,7 +170,7 @@ First, he acquired patents for alternative lightbulb concepts to come up with li
 Second, Westinghouse and his lawyer tried prolonging the lawsuit as much as possible. A delayed verdict was a victory for Westinghouse as in the interim he could continue to sell his light bulbs during that time – as there was no injunction.
 
 
-### Legal innovation: The Cravath System<a id="legal-innovation-the-cravath-system"></a>
+### Legal Innovation: The Cravath System<a id="legal-innovation-the-cravath-system"></a>
 
 George Westinghouse appointed the young Paul Drennan Cravath to be his lawyer in the patent lawsuit. Cravath would later become a partner of the law firm that is known today as Cravath, Swaine & Moore. In order to handle the unprecedented amount of paperwork involved in these trials, Cravath came up with what is known today as the [“Cravath System”](https://en.wikipedia.org/wiki/Cravath_System).
 
@@ -198,7 +198,7 @@ At the same time, there were around fifteen relevant electric companies competin
 In this highly competitive environment, Edison was struggling to realize the monopoly he envisioned when he filed for his patents years earlier and J.P. Morgan grew increasingly frustrated with his investment.
 
 
-### Consolidation driven by Financier’s interests<a id="consolidation-driven-by-financiers-interests"></a>
+### Consolidation Driven by Financier’s interests<a id="consolidation-driven-by-financiers-interests"></a>
 
 In 1889, Edison lost majority control of his company in a merger that led to the formation of _Edison General Electric_. In the same year, some subsidiaries of his company started to lobby for the use of AC technology and in 1890, Edison Machine Works began developing AC-based equipment.
 
@@ -209,7 +209,7 @@ Three years later in 1892, Edison’s financier J.P. Morgan decided to oust Edis
 The rapid consolidation between 1888 and 1893 was driven by a financial downturn in 1890/91, the [Baring crisis](https://en.wikipedia.org/wiki/Baring_crisis), that caused all electricity companies major cash flow issues as lenders called back their loans.
 
 
-### The War of the Currents ends and monopolies emerge<a id="the-war-of-the-currents-ends-and-monopolies-emerge"></a>
+### The War of the Currents ends and Monopolies Emerge<a id="the-war-of-the-currents-ends-and-monopolies-emerge"></a>
 
 The removal of Edison and GE’s turn to AC effectively ended the _War of the Currents_ as there was no company left that favored DC.
 
@@ -242,7 +242,7 @@ Lastly, there are long-distance DC lines and DC microgrids today. Technological 
 
 Maybe Thomas Edison was not too wrong after all.
 
-Thanks to Zi C. (Sam) Huang for collaboration and editing.
+<strong>Thanks</strong> to Zi C. (Sam) Huang for extensive collaboration and editing.
 
 **Suggested Reading**
 
