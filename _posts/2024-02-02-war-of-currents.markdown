@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  "Technology, Lawfare, and Finance in the Birth of Electricity"
-date:   2024-01-25 17:00:00 +0000
-permalink: "/singapore-2024/"
-slug: "singapore-2024"
+date:   2024-02-02 19:00:00 +0000
+permalink: "/war-of-currents/"
+slug: "war-of-currents"
 ---
-“The American way is to make money by creating wealth, not by suing people.” – Paul Graham
+
+> “The American way is to make money by creating wealth, not by suing people.”
+> -– Paul Graham
 
 In the late 19th century, it was an open technological and economical question if the US electrical grid would be built with alternating current (AC) or direct current (DC). Both sides had strong inventors and financiers, with [Thomas Edison](https://en.wikipedia.org/wiki/Thomas_Edison) backed by [J.P. Morgan](https://en.wikipedia.org/wiki/J._P._Morgan) strongly favoring a DC grid, while [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla) and [George Westinghouse](https://en.wikipedia.org/wiki/George_Westinghouse) favoring an AC grid.
 
