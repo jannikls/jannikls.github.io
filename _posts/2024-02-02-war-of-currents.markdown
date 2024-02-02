@@ -60,7 +60,7 @@ For illustration, using an AC battery to save the excess energy of solar panels 
 One way to increase the cost-effectiveness of renewable energy has been to build DC-based [micro-grids for industrial complexes, residential areas](https://www.ledsmagazine.com/connected-ssl-controls/article/14276366/microgrids-deliver-distributed-energy-for-smart-buildings-and-cities), or energy-intensive industries such as [manufacturing or semiconductors](https://www.ledsmagazine.com/connected-ssl-controls/article/14295600/energy-efficiency-the-rise-of-dc-microgrids). One startup in the space is [Direct Energy Partners](https://www.directenergypartners.com/).
 
 
-### Why was there a “War of Current” if AC was superior?<a id="why-was-there-a-war-of-current-if-ac-was-superior"></a>
+### Why was there a “War of the Currents” if AC was superior?<a id="why-was-there-a-war-of-current-if-ac-was-superior"></a>
 
 In hindsight, it is obvious that AC would have won the _War of the Currents_ every time. AC was not only technologically superior for the reasons mentioned above but there was also no realistic pathway to make DC economically viable at the time – especially for areas less dense than cities like NYC. 
 
@@ -159,7 +159,7 @@ These incentives were also reason enough to pursue numerous and more complex pat
 
 ### Edison’s Patent Infringement Lawsuit<a id="edisons-patent-infringement-lawsuit"></a>
 
-In Edison’s attempt to build a DC monopoly, Edison sued Westinghouse in 1888 over patent infringements for the incandescent light bulb in an attempt to take Westinghouse<sub><</sub>’s products off the market. 
+In Edison’s attempt to build a DC monopoly, Edison sued Westinghouse in 1888 over patent infringements for the incandescent light bulb in an attempt to take Westinghouse’s products off the market. 
 
 As outlined above, lightbulb sales brought in critical revenue for future investments. Edison wanted to cut Westinghouse off from this critical revenue from lightbulb sales and drive him out of business this way. His legal strategy was to overwhelm Westinghouse with paperwork – [filing a total of 312 lawsuits against Westinghouse](https://novelhistorian.com/2021/10/04/seeing-the-light-the-last-days-of-night/) and his suppliers and friends.
 
