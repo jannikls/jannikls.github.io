@@ -244,7 +244,7 @@ Maybe Thomas Edison was not too wrong after all.
 
 <strong>Thanks</strong> to Zi C. (Sam) Huang for extensive collaboration and editing.
 
-**Suggested Reading**
+### Suggested Readings
 
 1. [Graham Moore, The Last Days of Night](https://www.amazon.com/Last-Days-Night-Novel/dp/0812988922/).
 

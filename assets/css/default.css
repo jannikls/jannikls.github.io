@@ -20,6 +20,10 @@ article {
   padding: 0;
 }
 
+.content-box {
+  border: 0px solid black;
+  padding: 10px; /* Optional: Add padding to the content */
+}
 
 :root {
   --header-color: #fff;
@@ -221,13 +225,15 @@ body::after {
 
 /* Body Content Styles */
 .main-content {
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .body-container {
   max-width: 700px; /* Set max width for body content */
   margin: 0 auto; /* Center the body content */
   padding: 10px;
+  padding-bottom: var(--space-header);
 }
 
 

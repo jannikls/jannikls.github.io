@@ -2,7 +2,7 @@
   --header-color: #fff;
   --header-font-color: #2f2f2f;
   --body-color: #fff;
-  --body-font-color: #333;
+  --body-font-color: #222;
   --space-header: 0px;
 }
 
@@ -41,7 +41,7 @@ p {
   font-size: 16px; /* Slightly smaller font size */
   font-family: 'Alice', serif;
   line-height: 1.5; /* Increased line height for better readability */
-  color: #333; /* Dark gray color instead of black */
+  color: var(--body-font-color);
   font-weight: normal; /* Default font weight */
   padding-bottom: 5px; /* Adding padding for better spacing */
   text-align: justify;
@@ -57,7 +57,7 @@ h2 {
   margin-bottom: 5px;
   margin-top: 15px;
   padding-top: 0px;
-  color: #333;
+  color: var(--body-font-color);
 }
 
 
@@ -68,7 +68,8 @@ h3 {
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 15px;
-  color: #333;
+  color: var(--body-font-color);
+  ;
 }
 
 img {
@@ -115,6 +116,10 @@ h3 {
 .table th {
   background-color: #f2f2f2;
   font-weight: bold;
+}
+
+.strong {
+  font-weight: 900;
 }
 
 /* Alternate row colors */
