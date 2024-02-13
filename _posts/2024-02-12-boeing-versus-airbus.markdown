@@ -165,7 +165,7 @@ When the development of the B777 took longer and became much more expensive than
 
 Philip Condit was a successful engineering manager for critical planes such as the 777 before he became CEO. However, he was described as indecisive and did not invest enough in R&D and improving Boeing’s engineering capabilities.
 
-Before Condit took office as CEO, there was a general awareness that things needed to change. Michael Little, quality control supervisor, said: “I do  not think we are world-class. We are a marvelous company and have been for a long time. But we haven’t changed much in fory years. We are still using techniques that were refined after World War Two. Condit says if we don’t do a lot better, we are doomed. We want to stay in the phone book.”
+Before Condit took office as CEO, there was a general awareness that things needed to change. Michael Little, quality control supervisor, said: “I do  not think we are world-class. We are a marvelous company and have been for a long time. But we haven’t changed much in forty years. We are still using techniques that were refined after World War Two. Condit says if we don’t do a lot better, we are doomed. We want to stay in the phone book.”
 
 Condit was convinced that Boeing had to slash costs massively.
 
