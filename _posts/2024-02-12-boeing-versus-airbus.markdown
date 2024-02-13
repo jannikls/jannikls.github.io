@@ -92,9 +92,9 @@ A modern equivalent would be research engineers for ML labs. The combination of 
 
 To illustrate the degree to which tacit knowledge matters, here are two quotes from Boeing engineers:
 
-“‘Boeing developed much of the materials, manufacturing processes, tooling, tolerances and allowances, and other design features, which are then transferred to suppliers in Japan, Italy and elsewhere. ***Over time, institutional learning and forgetting will put the suppliers in control of the critical body of knowledge, and Boeing will steadily lose touch with key technical expertise.’”*** – Stan Sorscher, a Boeing engineer, from Boeing Versus Airbus
+“‘Boeing developed much of the materials, manufacturing processes, tooling, tolerances and allowances, and other design features, which are then transferred to suppliers in Japan, Italy and elsewhere. **Over time, institutional learning and forgetting will put the suppliers in control of the critical body of knowledge, and Boeing will steadily lose touch with key technical expertise.’”** – Stan Sorscher, a Boeing engineer, from Boeing Versus Airbus
 
-***“‘If Boeing’s engineers no longer understand the technical aspects of the airplane’s design and manufacturability, how can they integrate? Integration (...) takes place at the individual engineer level, which is where Boeing is cutting. The front-line engineer is where the rubber meets the road, but Boeing has made it clear that engineers are merely ‘costs’ to the company, not assets.’”*** – [Memorandum from Boeing Engineers](https://www.airliners.net/forum/viewtopic.php?t=213075) on the “Boeing Brain Drain”, Boeing Versus Airbus
+**“‘If Boeing’s engineers no longer understand the technical aspects of the airplane’s design and manufacturability, how can they integrate? Integration (...) takes place at the individual engineer level, which is where Boeing is cutting. The front-line engineer is where the rubber meets the road, but Boeing has made it clear that engineers are merely ‘costs’ to the company, not assets.’”** – [Memorandum from Boeing Engineers](https://www.airliners.net/forum/viewtopic.php?t=213075) on the “Boeing Brain Drain”, Boeing Versus Airbus
 
 
 ## How an MBA Culture Creeps into an Engineering Culture<a id="how-an-mba-culture-creeps-into-an-engineering-culture"></a>
