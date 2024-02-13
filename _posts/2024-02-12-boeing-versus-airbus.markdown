@@ -6,7 +6,7 @@ permalink: "/airbus-versus-boeing/"
 slug: "airbus-versus-boeing"
 ---
 
-For around thirty years, Airbus and Boeing have competed duopolistically and we have seen repeated ebb and flow in terms of market share. In 1992, Boeing’s market share for commercial airplanes was around 70%. In 2023, Airbus market share (measured by order backlog) is at [around 60%](https://flightplan.forecastinternational.com/2024/01/15/airbus-and-boeing-report-december-and-full-year-2023-commercial-aircraft-orders-and-deliveries/).
+For around thirty years, Airbus and Boeing have competed duopolistically and we have seen repeated ebb-and-flow in terms of market share. In 1992, Boeing’s market share for commercial airplanes was around 70%. In 2023, Airbus market share (measured by order backlog) is at [around 60%](https://flightplan.forecastinternational.com/2024/01/15/airbus-and-boeing-report-december-and-full-year-2023-commercial-aircraft-orders-and-deliveries/).
 
 The brand name “Boeing” used to be connected with engineering-quality and safety, as demonstrated by an [old Boeing merchandise](https://www.boeingstore.com/products/if-its-not-boeing-im-not-going-t-shirt-2). In light of recent [repeated](https://www.wsws.org/en/articles/2024/02/09/omle-f09.html) [safety](https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings) issues with Boeing planes, many American observers are finally learning that the once-glorious Boeing is in serious trouble. Ed Pierson, a Boeing senior manager, [said in an interview](https://www.latimes.com/california/story/2024-01-30/boeing-max-9-flying-again-after-door-panel-blowout) that “I would absolutely not fly a Max airplane.”
 
