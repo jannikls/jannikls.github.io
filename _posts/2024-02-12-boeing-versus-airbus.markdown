@@ -112,7 +112,7 @@ In an [interview](https://open.spotify.com/episode/3aTe5CocSFUJkRk5MKLojm?si=5a1
 
 Faced with a similar decision, Boeing acted less wise as their growth strategy was substantially based on M&A transactions. In 1997, Boeing acquired airplane and defense company McDonnell Douglas which increased Boeing’s market share to [70%](https://www.mdpi.com/2199-8531/7/3/192). As [part](https://boeing.mediaroom.com/1997-08-01-Board-of-Directors-for-New-Boeing-Company-Announced) of the transaction, executives [John McDonnell](https://en.wikipedia.org/wiki/John_McDonnell_\(businessman\)) and [Harry Stonecipher](https://en.wikipedia.org/wiki/Harry_Stonecipher) joined Boeing’s board and were among Boeing’s largest shareholders. Boeing CEO [Philip Condi](https://en.wikipedia.org/wiki/Philip_M._Condit)t strongly supported the merger. As discussed below, Condit was a driving force in the MBAfication of Boeing.
 
-In the “merged” company, McDonnell and Stonecipher had an immediate effect on Boeing. They wanted Boeing to pursue business activities with higher margins, especially defense contracting. They also urged Boeing to pursue a more cautious approach in investing into airplane R&D.
+In the “merged” company[^1], McDonnell and Stonecipher had an immediate effect on Boeing. They wanted Boeing to pursue business activities with higher margins, especially defense contracting. They also urged Boeing to pursue a more cautious approach in investing into airplane R&D.
 
 Stonecipher’s power was cemented in his role as Boeing’s President and COO from 1997 to 2001 and its CEO from 2003 to 2005. Besides the hard power Stonecipher could exercise in these positions, he was also known as a much stronger personality than Boeing’s Chief Executive at the time, Philip Condit.
 
@@ -262,3 +262,7 @@ On a final note, I owe many of the foundations behind management ideas expressed
 ### Suggested Readings<a id="suggested-readings"></a>
 
 1. John Newhouse, Boeing Versus Airbus: The Inside Story of the Greatest International Competition in Business
+
+### Footnotes
+[^1]: The transaction would be better described as an acquisition.
+
