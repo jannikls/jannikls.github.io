@@ -106,5 +106,5 @@ Second, technology now has the potential of saving American manufacturing and in
 
 Third, I think American manufacturing matters for “Deep Tech” startups because startups like Hadrian will enable faster feedback loops and increase reliability for startups producing hardware. We can’t move fast and break things if there’s not enough to move or break.
 
-Thanks to Zi C. (Sam) Huang for extensive collaboration and editing.
+**Thanks** to Zi C. (Sam) Huang for extensive collaboration and editing.
 
