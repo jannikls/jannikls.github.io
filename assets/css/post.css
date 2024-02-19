@@ -44,7 +44,7 @@ p {
   color: var(--body-font-color);
   font-weight: normal; /* Default font weight */
   padding-bottom: 5px; /* Adding padding for better spacing */
-  text-align: justify;
+  text-align: justify; /* justify*/
   margin-left: 0px;
   margin-right: 0px;
 }
