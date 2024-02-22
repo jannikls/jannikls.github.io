@@ -13,7 +13,7 @@ description: I write essays on topics loosely related to talent, tech culture, a
       <span class="date-tag">{{ post.date | date: "%b %d, %Y" }}</span>
     </div>
    <!-- <p>{{ post.excerpt }}</p> -->
-   <p>{{ post.content | markdownify | strip_html | truncatewords: 30 }}</p>
+   <p class="special-line-spacing3">{{ post.content | markdownify | strip_html | truncatewords: 30 }}</p>
 
    <div class="tag-group">
      {% for tag in post.tags %}

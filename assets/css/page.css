@@ -36,8 +36,13 @@ h3{ font-size: 20px;}
   padding-top: 10px;
 }
 
-p.special-line-spacing {
+p.special-line-spacing2 {
   padding-top: 20px;
+  line-height: calc(1em + 0.7em); /* Adjust as needed */
+}
+
+p.special-line-spacing3 {
+  line-height: 1.7em; /* Adjust as needed */
 }
 
 .post-info{
@@ -47,7 +52,7 @@ p.special-line-spacing {
 }
 
 @media (max-width: 730px) {
-  p.special-line-spacing {
+  p.special-line-spacing2 {
     padding-left: 15px;
     padding-right: 10px;
   }
