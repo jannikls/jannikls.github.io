@@ -38,11 +38,11 @@ h3{ font-size: 20px;}
 
 p.special-line-spacing2 {
   padding-top: 20px;
-  line-height: calc(1em + 0.7em); /* Adjust as needed */
+  line-height: calc(1em + 0.5em); /* Adjust as needed */
 }
 
 p.special-line-spacing3 {
-  line-height: 1.7em; /* Adjust as needed */
+  line-height: 1.5em; /* Adjust as needed */
 }
 
 .post-info{
