@@ -27,7 +27,7 @@ article {
 
 :root {
   --header-color: #fff;
-  --header-font-color: #2f2f2f;
+  --header-font-color: #000;
   --body-color: #fff;
   --body-font-color: #000;
   --space-header: 0px;
@@ -68,7 +68,7 @@ h1 {
 
 
 p {
-  font-size: 18px;
+  font-size: 18px; /* */
   font-family: 'Alice', serif;
   line-height: 1.3em;
 }

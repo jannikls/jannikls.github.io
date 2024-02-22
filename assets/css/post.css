@@ -38,7 +38,7 @@ blockquote {
 
 
 p {
-  font-size: 16px; /* Slightly smaller font size */
+  font-size: 18px; /* Slightly smaller font size */
   font-family: 'Alice', serif;
   line-height: 1.5; /* Increased line height for better readability */
   color: var(--body-font-color);
