@@ -139,10 +139,11 @@ a {
   color: var(--body-font-color);
   border-bottom: 1px rgba(34, 34, 34, 0.69);
   padding-bottom: 0;
-  font-weight: 400;
+  font-weight: normal;
   text-decoration: none;
   transition: all 0.2s;
   display: inline;
+  
 }
 
 p {
@@ -194,6 +195,12 @@ p {
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
+}
+
+p.header {
+  font-size: 20px;
+  line-height: calc(1em + 0.7em); /* Adjust as needed */
+
 }
 
 /* Image Styles */

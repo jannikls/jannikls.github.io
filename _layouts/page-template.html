@@ -8,8 +8,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Cardo&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/page.css">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/page-default.css' | relative_url }}">
 
   <!-- Google Tag Manager -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YLJV9FYFLD"></script>
@@ -22,23 +22,31 @@
     gtag('config', 'G-YLJV9FYFLD');
   </script>
   <!-- End Google Tag Manager -->
+
+  <div id="mc_embed_shell">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+      #mc_embed_signup{background:#fff;clear:left; width: 350px;}
+      /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+  </style>
+  
 </head>
 <body>
-
+  
   <header class="header-bg">
     <div class="header-content">
       <h1>{{ page.title }}</h1>
-      <p class="special-line-spacing header">{{ page.description }}</p>
+      <span>{{page.description}}</span>
     </div>
   </header>
-  
-  
+
   <main class="main-content">
     <div class="body-container">
       <div class="grey-text">
         {{content}}
       </div>
-    </div>
+
   </main>  
 
 </body>
