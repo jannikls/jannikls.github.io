@@ -36,7 +36,6 @@ blockquote {
   font-size: 14px;
 }
 
-
 p {
   font-size: 18px; /* Slightly smaller font size */
   font-family: 'Alice', serif;
@@ -54,20 +53,20 @@ h2 {
   line-height: 1.3em;
   font-family: 'Alice', serif;
   font-style: normal !important;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   margin-top: 15px;
   padding-top: 0px;
   color: var(--body-font-color);
 }
 
-
 h3 {
   font-size: 20px;
   line-height: 1.3em;
   font-family: 'Alice', serif;
-  margin-bottom: 0px;
-  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   color: var(--body-font-color);
+  padding-bottom: 5px;
 }
 
 img {
@@ -84,7 +83,7 @@ ul {
 }
 
 li {
-  font-size: 16px; /* Slightly smaller font size */
+  font-size: 18px; /* Slightly smaller font size */
   font-family: 'Alice', serif;
   line-height: 1.5; /* Increased line height for better readability */
   color: #333; /* Dark gray color instead of black */
@@ -92,45 +91,12 @@ li {
   text-align: justify;
 }
 
-h3 {
-  padding-bottom: 5px;
-}
-
-/* Table Styles */
-.table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-.table th,
-.table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-/* Table Header */
-.table th {
-  background-color: #f2f2f2;
-  font-weight: bold;
-}
-
 .strong {
   font-weight: 900;
 }
 
-/* Alternate row colors */
-.table tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
 p.header {
   color: var(--header-font-color);
-}
-
-p {
-  color: var(--body-font-color);
 }
 
 a {

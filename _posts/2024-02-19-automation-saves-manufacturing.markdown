@@ -69,7 +69,7 @@ Germany is emblematic of these developments. Consider the EU’s [degrowth ideol
 
 As soon as a manufacturing-heavy economy stops investing in the automation of manufacturing, incumbents and conglomerates tend to build strong competitive advantages over more dynamic, but smaller firms.
 
-Take [_Airbus versus Boeing_](https://www.jannikschilling.com/airbus-versus-boeing/#outsourcing-leads-to-permanent-loss-in-tacit-knowledge) __as an example. Boeing tried to position their core competency as “an assembler” of aircraft components, rather than a producer of critical core components. However, Boeing’s engineers stated that engineering knowledge on the components is required to successfully assemble planes. An early example of outsourcing destroying tacit manufacturing knowledge in the Western world.
+Take [_Airbus versus Boeing_](https://www.jannikschilling.com/airbus-versus-boeing/#outsourcing-leads-to-permanent-loss-in-tacit-knowledge) as an example. Boeing tried to position their core competency as “an assembler” of aircraft components, rather than a producer of critical core components. However, Boeing’s engineers stated that engineering knowledge on the components is required to successfully assemble planes. An early example of outsourcing destroying tacit manufacturing knowledge in the Western world.
 
 
 ### Automation is the only way to preserves tacit knowledge<a id="automation-is-the-only-way-to-preserves-tacit-knowledge"></a>
