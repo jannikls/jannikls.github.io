@@ -21,8 +21,9 @@ article {
 }
 
 .content-box {
+  /* margin-top: 50px; */
   border: 0px solid black;
-  padding: 10px; /* Optional: Add padding to the content */
+  padding-top: 40px; /* Optional: Add padding to the content */
 }
 
 :root {
@@ -58,12 +59,48 @@ article {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   padding-bottom: 0px;
   margin: 0; /* Reset the margin */
   color: var(--header-font-color);
+}
+
+h2 {
+  padding-top: 30px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.3em;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.3em;
+  font-family: 'Alice', serif;
+}
+
+p {
+  font-size: 20px; /* */
+  font-family: 'Alice', serif;
+  line-height: calc(1em + 0.7em); /* Adjust as needed */
+  margin-top: 0;
+  margin-bottom: 0.7em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+p.header {
+  font-size: 30px;
+  font-family: "Alice", serif;
+  font-weight: 600;
+  line-height: calc(1em + 0.3em); /* Adjust as needed */
+  color: var(--header-font-color);
+  padding: 0;
+  margin: 0;
 }
 
 li {
@@ -93,31 +130,6 @@ li {
   text-align: justify;
   margin-left: 0px;
   margin-right: 0px;
-}
-
-/* Table Styles */
-.table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-.table th,
-.table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-/* Table Header */
-.table th {
-  background-color: #f2f2f2;
-  font-weight: bold;
-}
-
-/* Alternate row colors */
-.table tr:nth-child(even) {
-  background-color: #f9f9f9;
 }
 
 a {
@@ -168,22 +180,16 @@ p.special-line-spacing {
   line-height: calc(1em + 0.7em); /* Adjust as needed */
 }
 
-p {
-  font-size: 18px; /* */
-  font-family: 'Alice', serif;
-  line-height: calc(1em + 0.7em); /* Adjust as needed */
-  margin-top: 0;
-  margin-bottom: 0.7em;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-p.header {
-  font-size: 20px;
-  line-height: calc(1em + 0.7em); /* Adjust as needed */
-  color: var(--header-font-color);
+/* Header Styles */
+.name-header {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  width: 100%; /* Makes the header responsive */
+  max-width: 700px; /* Maximum width of the header */
+  padding: 10px 0; /* Adjust as needed */
+  text-align: left;
+  z-index: 1000; /* Ensures the header is above other content */
 }
 
 /* Image Styles */
@@ -205,13 +211,9 @@ body {
   justify-content: space-between; /* flex-start or space-between*/
   margin: 0;
   padding: 0;
+  margin-top: 25px;
 }
 
-body::before,
-body::after {
-  content: "";
-  flex: 1;
-}
 
 /* Body Content Styles */
 .main-content {
@@ -220,12 +222,19 @@ body::after {
 }
 
 .body-container {
-  max-width: 700px; /* Set max width for body content */
+  max-width: 900px; /* Set max width for body content */
   margin: 0 auto; /* Center the body content */
   padding: 10px;
   padding-bottom: var(--space-header);
+  position: relative; /* For positioning the inner container */
 }
 
+.inner-container {
+  max-width: 650px;
+  position: absolute; /* Position relative to the body-container */
+  left: 0; /* Align to the left edge of body-container */
+  padding: 10px; /* Optional, based on your design needs */
+}
 
 .body-container .blog {
   background-color: #f7f7f7;
@@ -234,60 +243,52 @@ body::after {
   padding: 10px;
 }
 
-
 /* Header Styles */
 .header-bg {
   background-color: var(--header-color); /* Set header background color */
   padding-top: var(--space-header);
   padding-bottom: var(--space-header);
-
 }
 
 .header-content {
-  max-width: 670px; /* Set maximum width for the content */
+  max-width: 900px; /* Set maximum width for the content */
   margin: 0 auto; /* Center align the content */
 }
 
 .flex-container {
-  max-width: 700px;
   display: flex;
-  justify-content: space-between;
-  gap: 60px;
-  margin: 0 -15px;
-  width: calc(100% + 30px);
-}
-
-.content {
-  /*flex: 1 1 45%; /* Adjust the width as needed */
-  /*max-width: 100%; /* Allow content to adapt within the flex container */
-  justify-content: center; /* Vertically center content */
-  align-items: center; /* Vertically centers the image */
+  justify-content: space-between; /* Horizontally aligns items with space between them */
+  align-items: center; /* Vertically center items in the container */
+  gap: 0px; /* Space between items */
+  margin: 0 auto; /* Center the container, fixing the negative margin issue */
+  max-width: 900px; /* Maximum width of the container */
+  background-color: #fff; /* Background color */
 }
 
 .content:nth-child(1) {
+  padding-right: 20px;
+}
+
+/*
+.content:nth-child(1) {
   flex: 8; /* Adjust the first column size */
   /*max-width: 600px;
-  display: flex; /* Add display flex */
-  flex-direction: column; /* Set flex-direction to column */
-  justify-content: center; /* Center content vertically */
-  align-items: flex-start; /* Align content to the start (top) */
-  /* Other styles */
-  text-align: left; /* Align the text to the left */
-  margin-right: auto; /* Auto margin to push text to the left */
+  display: flex; /* Add display flex 
+  flex-direction: column; /* Set flex-direction to column 
+  justify-content: center; /* Center content vertically 
+  align-items: flex-start; /* Align content to the start (top) 
+  /* Other styles
+  text-align: left; /* Align the text to the left 
+  margin-right: auto; /* Auto margin to push text to the left 
 }
 
 
 .content:nth-child(2) {
-  flex: 3; /* Adjust the second column size */
-  text-align: right; /* Align the image to the right */
-  margin-left: auto; /* Auto margin to push image to the right */
-  /* Other styles */
-} 
-
-
-
-
-
+  flex: 3; /* Adjust the second column size 
+  text-align: right; /* Align the image to the right 
+  margin-left: auto; /* Auto margin to push image to the right 
+  /* Other styles 
+} */
 
 
 @media (min-width: 730px) and (max-width: 1024px) {
@@ -295,14 +296,6 @@ body::after {
   .h1 {
     text-align: left;
   }
-
-  /*.content {
-    width: calc(50%-5px);
-    max-width: 600px;
-    margin: 0 -15px;
-    padding-right: 40px;
-    padding-left: 5px;
-  }*/
 
   .content {
     max-width: 600px;
@@ -321,16 +314,23 @@ body::after {
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  .body-container {
+    max-width: 700px; /* Set max width for body content */
+    margin: 0 auto; /* Center the body content */
+    padding: 10px;
+    padding-bottom: var(--space-header);
+    position: relative; /* For positioning the inner container */
+  }
+  
+  .inner-container {
+    max-width: 550px;
+    position: absolute; /* Position relative to the body-container */
+    left: 0; /* Align to the left edge of body-container */
+    padding: 10px; /* Optional, based on your design needs */
+  }
+
 }
-
-
-
-
-
-
-
-
-
 
 /* Media Query for Responsive Design */
 @media (max-width: 730px) {
@@ -348,7 +348,7 @@ body::after {
   }
 
   .header-content {
-    max-width: 670px; /* Set maximum width for the content */
+    max-width: 700px; /* Set maximum width for the content */
     margin: 0 0; /* Center align the content */
   }
 
@@ -371,7 +371,7 @@ body::after {
 
   .content:nth-child(1) {
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 50px;
   }
   
   .flex-container > div:nth-child(1) {
@@ -401,21 +401,5 @@ body::after {
     padding: 0;
     padding-left: 5px;
     padding-right: 5px;
-    padding-top: 20px;
     }
-}
-
-
-h2 {
-  padding-top: 30px;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 1.3em;
-  font-style: italic;
-}
-
-h3 {
-  font-size: 20px;
-  line-height: 1.3em;
-  font-family: 'Alice', serif;
 }
