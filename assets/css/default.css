@@ -335,6 +335,10 @@ body {
 /* Media Query for Responsive Design */
 @media (max-width: 730px) {
 
+  .name-header {
+    left: 15px;
+  }
+
   .content:nth-child(1) {
     max-width: 767px;
     width: 100vh;
