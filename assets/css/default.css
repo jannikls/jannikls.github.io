@@ -96,7 +96,6 @@ p {
 p.header {
   font-size: 30px;
   font-family: "Alice", serif;
-  font-weight: 600;
   line-height: calc(1em + 0.3em); /* Adjust as needed */
   color: var(--header-font-color);
   padding: 0;
