@@ -12,7 +12,7 @@ Starting from January 2024, I will regularly share some of the best books I have
 6. Thomas Mann -- Magic Mountain
 7. Robert Caro -- LBJ Biography Series
 
-I enjoy reading the Classics too. Goethe's Faust is great.
+My favourite Physics textbook is [Gravitation](https://en.wikipedia.org/wiki/Gravitation_(book)) by MTW. I enjoy reading the Classics too. Goethe's Faust is great.
 
 ## Memos
 I sometimes come across interesting memos while researching my latest curiorisities. I curate and share the most interesting ones below.
