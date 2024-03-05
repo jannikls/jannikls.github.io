@@ -12,8 +12,15 @@ Starting from January 2024, I will regularly share some of the best books I have
 6. Thomas Mann -- Magic Mountain
 7. Robert Caro -- LBJ Biography Series
 
-My favourite Physics textbook is [Gravitation](https://en.wikipedia.org/wiki/Gravitation_(book)) by MTW. I enjoy reading the Classics too. Goethe's Faust is great.
+Here are some of my all-time favourite books, including the Classics and textbooks:
 
-## Memos
+1. MTW -- [Gravitation](https://en.wikipedia.org/wiki/Gravitation_(book)) is my favourite GR textbook.
+2. Edwin Abbott -- [Flatland](https://en.wikipedia.org/wiki/Flatland) is an exhilarating "mathematical fiction".
+3. Norbert Wiener -- [Cybernetics](https://en.wikipedia.org/wiki/Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine)
+4. JW von Goethe -- Faust
+
+Here are some of my favourite literary essays:
+1. David Foster Wallace -- [Consider the Lobster](https://en.wikipedia.org/wiki/Consider_the_Lobster)
+
 I sometimes come across interesting memos while researching my latest curiorisities. I curate and share the most interesting ones below.
 1. <a href="https://airliners.net/forum/viewtopic.php?f=3&t=213075">"The Downfall of a Great American Airplane Company -- An Insider's Perspective"</a> Memo by Boeing engineers on the downfall of their commercial airline division.

@@ -32,12 +32,12 @@ article {
 
 /* Text Selection Styles */
 ::-moz-selection {
-  background: #001830;
+  background: #222222;
   color: #fff;
 }
 
 ::selection {
-  background: #001830;
+  background: #222222;
   color: #fff;
 }
 
