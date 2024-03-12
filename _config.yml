@@ -36,7 +36,7 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-
+      comments: true
 
 permalink: pretty
 
