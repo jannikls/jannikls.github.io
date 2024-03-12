@@ -5,7 +5,7 @@ description:
 ---
 Starting from January 2024, I will regularly share some of the best books I have read. I maintain a high standard for recommending a book here; my broader readings can be found <a href="https://www.goodreads.com/user/show/135530195-jannik">here</a>. The list is in no particular order.
 1. Lee Kuan Yew -- <a href="https://www.amazon.com/Third-World-First-Singapore-1965-2000/dp/0060197765">From Third World to First: The Singapore Story: 1965-2000</a>
-2. Cixin Liu -- The Three-Body Problem
+2. Cixin Liu -- Remembrance of Earth's Past
 3. Graham Moore -- The Last Days of Night
 4. Ted Chiang -- Exhalation and Story of Your Life
 5. Stefan Zweig -- The World of Yesterday
