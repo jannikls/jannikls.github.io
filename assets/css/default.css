@@ -229,7 +229,7 @@ body {
 }
 
 .inner-container {
-  max-width: 650px;
+  max-width: 650px; /* 650 */
   position: absolute; /* Position relative to the body-container */
   left: 0; /* Align to the left edge of body-container */
   padding: 10px; /* Optional, based on your design needs */
