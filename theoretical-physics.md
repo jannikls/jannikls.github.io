@@ -9,3 +9,4 @@ While I am not actively studying or researching GR anymore, I sometimes read pap
 
 Theoretical Physics papers I have been reading lately:
 1. <a href="https://arxiv.org/pdf/2403.04827.pdf">Regular Black Holes From Pure Gravity</a> by Pablo Bueno et al. (Read on March 11, 2024)
+2. <a href="https://einsteinpapers.press.princeton.edu/vol6-trans/433">Cosmological Considerations in the General Theory of Relativity</a> by Albert Einstein. A delightful read for theoretical physists. <a href="https://aetherialporosity.wordpress.com/2020/07/05/things-i-learnt-writing-my-thesis-introduction-part-1-einsteins-not-so-big-blunder/">Here</a> is a good piece on the historical relevance and joy of reading it.
