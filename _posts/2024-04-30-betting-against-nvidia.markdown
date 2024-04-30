@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On Betting Against NVIDIA's plans"
-date:   2024-04-30 17:00:00 +0000
+date:   2024-04-30 06:00:00 +0000
 permalink: "/betting-against-nvidia/"
 slug: "betting-against-nvidia"
 ---
