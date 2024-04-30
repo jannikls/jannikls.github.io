@@ -24,3 +24,4 @@ Here are some of my favourite literary essays:
 
 I sometimes come across interesting memos while researching my latest curiorisities. I curate and share the most interesting ones below.
 1. <a href="https://airliners.net/forum/viewtopic.php?f=3&t=213075">"The Downfall of a Great American Airplane Company -- An Insider's Perspective"</a> Memo by Boeing engineers on the downfall of their commercial airline division.
+2. <a href="https://medium.com/@sosofancy/the-secret-diary-of-a-sustainable-investor-part-1-70b6987fa139">The Secret Diary of a ‘Sustainable Investor’</a> Memo by Tariq Fancy, former CIO for Sustainable Investing at Blackrock, outlining why ESG is not working.
