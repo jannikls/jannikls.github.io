@@ -7,6 +7,7 @@ slug: "betting-against-nvidia"
 ---
 _“Still to this day, if you ask founders, ‘Are you afraid that Microsoft might do what you’re doing?’ None of them are. It’s still not a threat to start-ups. Yes, it makes more money now, but it’s still not a threat like it used to be. It doesn’t matter in the sense of factoring into anyone’s plans for the future. No start-up is thinking, ‘Well, I better not do that because Microsoft might enter that and destroy me.’”_ – [Paul Graham](https://conversationswithtyler.com/episodes/paul-graham/)
 
+**Thanks** to Zi C. (Sam) Huang for extensive collaboration and editing.
 
 The best technology startups [build monopolies](https://www.amazon.com/Zero-to-One-audiobook/dp/B00M284NY2/). Historically, one way of building a monopoly is entering technologically-antique markets with low levels of competition and technological change and overtaking the pre-existing monopoly profits.
 
