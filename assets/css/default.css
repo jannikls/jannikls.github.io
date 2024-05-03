@@ -95,7 +95,7 @@ p {
 
 p.header {
   font-size: 30px;
-  font-family: "Alice", serif;
+  font-family: "Alegreya SC", serif;
   line-height: calc(1em + 0.3em); /* Adjust as needed */
   color: var(--header-font-color);
   padding: 0;
@@ -229,7 +229,7 @@ body {
 }
 
 .inner-container {
-  max-width: 650px; /* 650 */
+  max-width: 700px; /* 650 */
   position: absolute; /* Position relative to the body-container */
   left: 0; /* Align to the left edge of body-container */
   padding: 10px; /* Optional, based on your design needs */

@@ -38,7 +38,6 @@ blockquote {
 
 p {
   font-size: 18px; /* Slightly smaller font size */
-  font-family: 'Alice', serif;
   line-height: 1.5; /* Increased line height for better readability */
   color: var(--body-font-color);
   font-weight: normal; /* Default font weight */
@@ -46,12 +45,18 @@ p {
   text-align: justify; /* justify*/
   margin-left: 0px;
   margin-right: 0px;
+  font-family: 'Alegreya', serif;
+}
+
+h1 {
+  font-family: 'Alegreya SC', serif;
+  line-height: 1em;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 32px;
   line-height: 1.3em;
-  font-family: 'Alice', serif;
+  font-family: 'Alegreya SC', serif;
   font-style: normal !important;
   margin-bottom: 15px;
   margin-top: 15px;
@@ -60,13 +65,14 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.3em;
   font-family: 'Alice', serif;
   margin-bottom: 10px;
   margin-top: 10px;
   color: var(--body-font-color);
   padding-bottom: 5px;
+  font-family: 'Alegreya SC', serif;
 }
 
 img {

@@ -21,14 +21,16 @@
 p {
   font-size: 18px;
   margin: 0px;
+  font-family: "Alegreya", serif;
 }
 
 h1 {
   margin-top: 30px;
   margin-bottom: 5px;
+  
 }
 
-h3{ font-size: 20px;}
+h3{ font-size: 20px;font-family: 'Alegreya SC', serif;}
 
 .date-tag {
   color: #777;
