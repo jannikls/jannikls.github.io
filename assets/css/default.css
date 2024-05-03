@@ -61,7 +61,7 @@ article {
 h1 {
   font-size: 30px;
   font-weight: 400;
-  font-family: "Playfair Display", serif;
+  font-family: "Alegreya SC", serif;
   padding-bottom: 0px;
   margin: 0; /* Reset the margin */
   color: var(--header-font-color);
