@@ -5,6 +5,8 @@ date:   2024-06-30 15:00:00 +0000
 permalink: "/books-2024-q2/"
 slug: "books-2024-q2"
 ---
+*This essay can also be found on my <a href="https://open.substack.com/pub/theschillingpoint/p/what-i-have-been-reading-q2-2024?utm=website">Substack</a>, where you can also subscribe to my future writing.*
+
 I have been reading more of the Great Books recently. I always had a propensity to get obsessed with a wide range of eclectic fields, such as cybernetics or differential geometry in the past, but only recently got into reading the Great Books more deeply. It now seems true that knowing the *Great Books* well has a high payoff – at the very least, it helps with thinking and writing.
 
 Most of the books were recommended to me by friends based on my interests at the time. I have also been traveling a fair amount and visited a few bookstores, e.g. Daunt in London, Dog Eared Books in SF, and Unity Books in Auckland, where I picked books that seemed interesting. The former clearly leads to less quality variance and seems like the better approach, although visiting a bookstore like Daunt every now and then clearly seems worthwhile for getting exposure to different kinds of books.
@@ -48,4 +50,5 @@ I plan to share more of my readings every few months[^1]. If you know books that
 32. Christopher Lasch: *The Revolt of The Elites*. Lasch offers a reasonably interesting critique of how modern elites share vices similar to past aristocratic elites but don’t share their virtues, while there is a growing disconnect and gap between the top and the bottom of the broader population. Written in the 1990s, the title is an antithesis to the 1929 essay *The Revolt of the Masses* and is still relevant today. Thanks for the recommendation, Linus.
 
 **Thanks** for the helpful edits, Zi. C. (Sam) Huang. And thanks to all my friends for recommending *Great Books* to me.
+
 [^1]: This list does not contain books I have only read partly or books that were bad – only ones that I finished cover to cover. I have read some excerpts from various philosophy books such as John Locke’s *The Reasonableness of Christianity*, Nietzsche’s *Genealogie der Moral*, and more.
