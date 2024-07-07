@@ -1,32 +1,6 @@
-/* General Styles */
-html {
-  margin: 0 auto;
-  background-color: var(--body-color);
-}
-
-/* Custom CSS Reset */
-body, h1, h2, h3, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
-
-main {
-  margin: 0;
-  padding: 0;
-}
-
-article {
-  margin: 0;
-  padding: 0;
-}
-
-.content-box {
-  /* margin-top: 50px; */
-  border: 0px solid black;
-  padding-top: 40px; /* Optional: Add padding to the content */
-}
-
 :root {
+  --max-width: 900px;
+  --content-padding: 0px;
   --header-color: #fff;
   --header-font-color: #000;
   --body-color: #fff;
@@ -34,36 +8,39 @@ article {
   --space-header: 0px;
 }
 
-
-/* Text Selection Styles */
-::-moz-selection {
-  background: #222222;
-  color: #fff;
+/* General Styles */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+body {
+  margin-top: 25px;
+}
+
+/* Custom CSS Reset */
+body, h1, h2, h3, p, ul, li, main, article {
+  margin: 0;
+  padding: 0;
+}
+
+/* Text Selection Styles */
 ::selection {
   background: #222222;
   color: #fff;
 }
 
 /* Text and Heading Styles */
-.post-info {
-  font-size: 0.9em;
-  margin: 20px 0;
-  color: #ddd; /* */
-}
-
-.author,
-.date {
-  margin-right: 20px;
-}
-
 h1 {
   font-size: 30px;
   font-weight: 400;
   font-family: "Alegreya SC", serif;
-  padding-bottom: 0px;
-  margin: 0; /* Reset the margin */
   color: var(--header-font-color);
 }
 
@@ -82,53 +59,23 @@ h3 {
 }
 
 p {
-  font-size: 20px; /* */
+  font-size: 20px;
   font-family: 'Alice', serif;
-  line-height: calc(1em + 0.7em); /* Adjust as needed */
-  margin-top: 0;
+  line-height: calc(1em + 0.7em);
   margin-bottom: 0.7em;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 p.header {
   font-size: 30px;
   font-family: "Alegreya SC", serif;
-  line-height: calc(1em + 0.3em); /* Adjust as needed */
+  line-height: calc(1em + 0.3em);
   color: var(--header-font-color);
-  padding: 0;
-  margin: 0;
 }
 
 li {
   font-size: 18px;
   font-family: 'Alice', serif;
   line-height: 1.3em;
-}
-
-.li-blog {
-  font-size: 16px; /* Slightly smaller font size */
-  font-family: 'Alice', serif;
-  line-height: 1.5; /* Increased line height for better readability */
-  color: #333; /* Dark gray color instead of black */
-  font-weight: normal; /* Default font weight */
-  padding-bottom: 5px; /* Adding padding for better spacing */
-  text-align: justify;
-}
-
-
-.p-blog {
-  font-size: 16px; /* Slightly smaller font size */
-  font-family: 'Alice', serif;
-  line-height: 1.5; /* Increased line height for better readability */
-  color: #333; /* Dark gray color instead of black */
-  font-weight: normal; /* Default font weight */
-  padding-bottom: 5px; /* Adding padding for better spacing */
-  text-align: justify;
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 a {
@@ -139,7 +86,6 @@ a {
   text-decoration: none;
   transition: all 0.2s;
   display: inline;
-  
 }
 
 a:hover {
@@ -147,48 +93,75 @@ a:hover {
   border-bottom: 1px solid #000;
 }
 
-.grey-text a {
-  border-bottom-style: dotted;
+/* Layout Styles */
+.content-box {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 20px var(--content-padding);
 }
 
-.grey-text a:hover {
-  color: rgba(34, 34, 34, 0.62);
-  border-bottom-style: solid;
-  border-bottom-color: rgba(34, 34, 34, 0.62);
-}
-
-.grey-text.spacer {
-  margin-top: 0;
-}
-
-/* List Styles */
-.enumeration {
-  list-style-type: none;
-  padding-left: 3em;
-}
-
-.enumeration li::before {
-  content: "-";
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
-
-/* Paragraph Spacing */
-p.special-line-spacing {
-  line-height: calc(1em + 0.7em); /* Adjust as needed */
-}
-
-/* Header Styles */
 .name-header {
   position: absolute;
   top: 0;
-  left: 30px;
-  width: 100%; /* Makes the header responsive */
-  max-width: 700px; /* Maximum width of the header */
-  padding: 10px 0; /* Adjust as needed */
-  text-align: left;
-  z-index: 1000; /* Ensures the header is above other content */
+  left: 20px;
+  width: calc(100% - 2 * var(--content-padding));
+  max-width: var(--max-width);
+  height: 100px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+.name-header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.header-bg {
+  background-color: var(--header-color);
+  padding-top: var(--space-header);
+  padding-bottom: var(--space-header);
+}
+
+.header-content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-top: 100px; /* Should match .name-header height */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  background-color: #fff;
+}
+
+.content:nth-child(1) {
+  display: flex;
+  align-items: center; /* This ensures the p.header is vertically centered */
+  height: 180px; /* Adjust this to match your image height */
+}
+
+.main-content {
+  padding-left: var(--content-padding);
+  padding-right: var(--content-padding);
+}
+
+.body-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 10px 0;
+  position: relative;
+}
+
+.inner-container {
+  max-width: 700px;
+  position: relative;
+  left: 0;
+  padding: 0;
 }
 
 /* Image Styles */
@@ -196,219 +169,213 @@ p.special-line-spacing {
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: block;
-  margin: 0 auto; /* Horizontally centers the image within its parent */
-
+  margin: 0 auto;
 }
 
-/* Flexbox Layout for Header and Main Content */
-html,
-body {
-  height: 100%;
-  width: 100%;
+/* Link Container Styles */
+.link-container {
+  margin-top: 20px;
+}
+
+.link-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* flex-start or space-between*/
-  margin: 0;
-  padding: 0;
-  margin-top: 25px;
+  align-items: flex-end;
 }
 
-
-/* Body Content Styles */
-.main-content {
-  padding-right: 20px;
-  padding-left: 20px;
+.link-container li {
+  margin-bottom: 10px;
 }
 
-.body-container {
-  max-width: 900px; /* Set max width for body content */
-  margin: 0 auto; /* Center the body content */
-  padding: 10px;
-  padding-bottom: var(--space-header);
-  position: relative; /* For positioning the inner container */
+.link-container a {
+  color: var(--body-font-color);
+  transition: all 0.2s;
+  border-bottom: 1px dotted rgba(34, 34, 34, 0.69); /* Restore underline */
 }
 
-.inner-container {
-  max-width: 700px; /* 650 */
-  position: absolute; /* Position relative to the body-container */
-  left: 0; /* Align to the left edge of body-container */
-  padding: 10px; /* Optional, based on your design needs */
+.link-container a:hover {
+  color: var(--body-font-color);
+  border-bottom: 1px solid #000;
 }
 
-.body-container .blog {
-  background-color: #f7f7f7;
-  max-width: 700px;
-  margin: 0 auto; /* Center the body content */
-  padding: 10px;
+a {
+  color: var(--body-font-color);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(34, 34, 34, 0.69);
+  transition: all 0.2s;
 }
 
-/* Header Styles */
-.header-bg {
-  background-color: var(--header-color); /* Set header background color */
-  padding-top: var(--space-header);
-  padding-bottom: var(--space-header);
+a:hover {
+  border-bottom: 1px solid #000;
 }
 
-.header-content {
-  max-width: 900px; /* Set maximum width for the content */
-  margin: 0 auto; /* Center align the content */
-}
-
-.flex-container {
-  display: flex;
-  justify-content: space-between; /* Horizontally aligns items with space between them */
-  align-items: center; /* Vertically center items in the container */
-  gap: 0px; /* Space between items */
-  margin: 0 auto; /* Center the container, fixing the negative margin issue */
-  max-width: 900px; /* Maximum width of the container */
-  background-color: #fff; /* Background color */
-}
-
-.content:nth-child(1) {
-  padding-right: 20px;
-}
-
-/*
-.content:nth-child(1) {
-  flex: 8; /* Adjust the first column size */
-  /*max-width: 600px;
-  display: flex; /* Add display flex 
-  flex-direction: column; /* Set flex-direction to column 
-  justify-content: center; /* Center content vertically 
-  align-items: flex-start; /* Align content to the start (top) 
-  /* Other styles
-  text-align: left; /* Align the text to the left 
-  margin-right: auto; /* Auto margin to push text to the left 
-}
-
-
-.content:nth-child(2) {
-  flex: 3; /* Adjust the second column size 
-  text-align: right; /* Align the image to the right 
-  margin-left: auto; /* Auto margin to push image to the right 
-  /* Other styles 
-} */
-
-
-@media (min-width: 730px) and (max-width: 1024px) {
-  /* TABLET MODE */
-  .h1 {
-    text-align: left;
-  }
-
-  .content {
-    max-width: 600px;
-  }
-
+@media (min-width: 731px) and (max-width: 1200px) {
   .flex-container {
-    max-width: 700px;
-    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .header-content{
-    max-width: 730px;
+  .content:nth-child(2) {
+    order: -1;
+    margin-bottom: 20px;
   }
 
-  .main-content{
-    padding-left: 0px;
-    padding-right: 0px;
+  .content:nth-child(1) {
+    text-align: center;
+    height: auto;
   }
 
-  .body-container {
-    max-width: 700px; /* Set max width for body content */
-    margin: 0 auto; /* Center the body content */
-    padding: 10px;
-    padding-bottom: var(--space-header);
-    position: relative; /* For positioning the inner container */
+  .main-content .flex-container {
+    flex-direction: column-reverse;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .link-container ul {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .link-container li {
+    margin: 5px 10px;
+  }
+}
+
+@media (max-width: 730px) {
+  .link-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .main-content .flex-container {
+    flex-direction: column-reverse;
+  }
+
+  .link-container ul {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   
-  .inner-container {
-    max-width: 550px;
-    position: absolute; /* Position relative to the body-container */
-    left: 0; /* Align to the left edge of body-container */
-    padding: 10px; /* Optional, based on your design needs */
+  .link-container li {
+    margin: 5px 10px;
   }
 
-}
+  body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
 
-/* Media Query for Responsive Design */
-@media (max-width: 730px) {
+  .content-box {
+    padding: 10px 15px; /* Reduce padding on mobile */
+  }
 
   .name-header {
     left: 15px;
   }
-
-  .content:nth-child(1) {
-    max-width: 767px;
-    width: 100vh;
-  }
-
+  
   .flex-container {
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 0;
-    width: 100%;
-  }
-
-  .header-content {
-    max-width: 700px; /* Set maximum width for the content */
-    margin: 0 0; /* Center align the content */
-  }
-
-  .content {
-    box-sizing: border-box;
-    width: 100vw;
-  }
-
-  .content:nth-child(1), .content:nth-child(2) {
-    width: 100vw; /* Adjust the second column size */
-    min-width: 100vw;
-    padding-left: 0px;
-    margin: 0 0;
-  } 
-
-  .content:nth-child(1) .circular--square {
-    display: block;
-    margin: 0 auto;
-  }
-
-  .content:nth-child(1) {
-    padding-left: 15px;
-    padding-right: 50px;
-  }
-  
-  .flex-container > div:nth-child(1) {
-    order: 2;
-  }
-  
-  .flex-container > div:nth-child(2) {
-    order: 1;
-  }
-
-  .content:nth-child(2) {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vh;
-    padding: 0;
-    margin: 0;
+    gap: 20px;
   }
   
-  h1.pic {
-    text-align: left;
+  .content:nth-child(1), .content:nth-child(2) {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
   }
-
-
+  
+  .content:nth-child(2) {
+    order: -1;
+  }
+  
   p.header {
     font-size: 25px;
     padding-top: 10px;
   }
-
+  
   .main-content {
-    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0px;
+  }
+  
+  .link-container {
+    margin-top: 10px; /* Reduce top margin on mobile */
+    margin-bottom: 10px; /* Add bottom margin on mobile */
+  }
+
+  .link-container ul {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+  
+  .link-container li {
+    margin: 0 10px 10px;
+  }
+
+  .header-content {
+    padding-top: 100px;
+  }
+
+  .flex-container {
+    gap: 10px;
+  }
+
+  .content:nth-child(1) {
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .body-container {
     padding: 0;
-    padding-left: 5px;
-    padding-right: 5px;
-    }
+  }
+}
+
+@media (min-width: 731px) and (max-width: 1024px) {
+  .flex-container, .header-content, .body-container {
+    max-width: 700px;
+  }
+  
+  .inner-container {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .flex-container, .header-content, .body-container {
+    max-width: 900px;
+  }
+
+  .inner-container {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 731px) and (max-width: 1200px) {
+  .main-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .body-container {
+    padding: 10px 20px;
+  }
+
+  .header-content {
+    padding-top: 70px;
+  }
+
+  p.header {
+    font-size: 26px;
+    line-height: 1.3;
+  }
 }
