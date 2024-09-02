@@ -1,0 +1,19 @@
+---
+title: The Schilling Point
+layout: page-template
+---
+Subscribe to my <a href="https://www.theschillingpoint.com/subscribe">Substack</a> to follow my future writing.
+
+{% for post in site.posts %}
+<article>
+  <h2>
+    <a href="{{ post.url }}" style="color: #0066cc;">
+      {{ post.title }}
+    </a>
+  </h2>
+  </h2>
+  <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+  {{ post.content }}
+</article>
+{% endfor %}
+

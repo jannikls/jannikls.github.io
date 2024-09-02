@@ -1,8 +1,12 @@
 ---
 title:  Loose Thoughts on Theoretical Physics
 layout: page-template
-permalink: /theoretical-physics
+permalink: /theoretical-physics/
 ---
+
+>But you must note this: if God exists and if He really did create the world, then, as we all know, He created it according to the geometry of Euclid and the human mind with the conception of only three dimensions in space. Yet there have been and still are geometricians and philosophers, and even some of the most distinguished, who doubt whether the whole universe, or to speak more widely, the whole of being, was only created in Euclid’s geometry; they even dare to dream that two parallel lines, which according to Euclid can never meet on earth, may meet somewhere in infinity... I have a Euclidian earthly mind, and how could I solve problems that are not of this world?
+><i>-- Ivan on the ineffability of God, Brothers Karamazov, Part II, Book V, Chapter 3</i>
+
 *Under construction. (May 5, 2024).* I have always been most interested in understanding General Relativity (GR) and its limitations. I researched *Galaxy Simulations and Star Formations* in a research group at the University of Hamburg.
 
 While I am not actively studying or researching GR anymore, I sometimes read papers on Quantum Gravity in my free time. I am going to share some papers, conjectures, and reflections here.

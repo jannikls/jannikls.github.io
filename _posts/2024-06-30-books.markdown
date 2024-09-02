@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "What I Have been Reading (Q2 2024)"
+title:  "Spring 2024: What I Have been Reading"
 date:   2024-06-30 15:00:00 +0000
-permalink: "/books-2024-q2/"
-slug: "books-2024-q2"
+permalink: "/books-2024-spring/"
+slug: "books-2024-spring"
 ---
-*This essay can also be found on my <a href="https://open.substack.com/pub/theschillingpoint/p/what-i-have-been-reading-q2-2024?utm=website">Substack</a>, where you can also subscribe to my future writing.*
+*This essay can also be found on my <a href="https://open.substack.com/pub/theschillingpoint">Substack</a>, where you can also subscribe to my future writing.*
 
 I have been reading more of the Great Books recently. I always had a propensity to get obsessed with a wide range of eclectic fields, such as cybernetics or differential geometry in the past, but only recently got into reading the Great Books more deeply. It now seems true that knowing the *Great Books* well has a high payoff – at the very least, it helps with thinking and writing.
 
@@ -49,6 +49,6 @@ I plan to share more of my readings every few months[^1]. If you know books that
 31. Norman Angell: *The Great Illusion*. The reason why this book is not commonly read today is that Angell (1872-1967) gets the future radically wrong. The 1933 Nobel Peace prize winner postulates in *The Great Illusion*, published in 1909, that the economic integration in Europe (mainly between Germany and the British empire) has grown so strong that a future war between them would be futile. He further argues that war would be economically and socially irrational, unlikely to ever start, and necessarily of short-lived nature. The most striking experience of engaging with the book was that a lot of contemporaries would not disagree with Angell’s arguments and perspectives, despite their historic track record.
 32. Christopher Lasch: *The Revolt of The Elites*. Lasch offers a reasonably interesting critique of how modern elites share vices similar to past aristocratic elites but don’t share their virtues, while there is a growing disconnect and gap between the top and the bottom of the broader population. Written in the 1990s, the title is an antithesis to the 1929 essay *The Revolt of the Masses* and is still relevant today. Thanks for the recommendation, Linus.
 
-**Thanks** for the helpful edits, Zi. C. (Sam) Huang. And thanks to all my friends for recommending *Great Books* to me.
+**Thanks** for the helpful edits, Zi. C. (Sam) Huang. And thanks to all my friends for recommending books to me.
 
-[^1]: This list does not contain books I have only read partly or books that were bad – only ones that I finished cover to cover. I have read some excerpts from various philosophy books such as John Locke’s *The Reasonableness of Christianity*, Nietzsche’s *Genealogie der Moral*, and more.
+[^1]: This list does not contain books I have only read partly or books that were bad – only ones that I read cover to cover. I have read some excerpts from various philosophy books such as John Locke’s *The Reasonableness of Christianity*, Nietzsche’s *Genealogie der Moral*, and more.

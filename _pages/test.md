@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jannik Schilling
-permalink: "/test/"
+permalink: "/pages/test/"
 ---
 
 Before turning 15, I dropped out of a Theoretical Physics degree. I am an Atlas Fellow and an Emergent Ventures Grantee.

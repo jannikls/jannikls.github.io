@@ -40,21 +40,42 @@
 
   </head>
 
-<body>
-
-  <header class="header-bg">
-    <div class="header-content">
-      <h1>{{ page.title }}</h1>
-      <div class="post-info">
-        <span class="date-tag">Published: {{ page.date | date: "%B %-d, %Y" }}<br></span>
-        <a href="/"><span class="date-tag">Go to Homepage</span><br></a>
-        <a href="#mc_embed_signup"><span class="date-tag">Subscribe Here</span></a>
+  <body>
+    <header>
+      <div class="nav-bar container">
+        <h1>JANNIK SCHILLING</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">
+                {% if page.url == '/' %}{ Home }{% else %}Home{% endif %}
+              </a>
+            </li>
+            <li>
+              <a href="{{ '/bookshelf/' | relative_url }}" class="{% if page.url == '/bookshelf/' %}active{% endif %}">
+                {% if page.url == '/bookshelf/' %}{ Bookshelf }{% else %}Bookshelf{% endif %}
+              </a>
+            </li>
+            <li>
+              <a href="{{ '/theoretical-physics/' | relative_url }}" class="{% if page.url == '/theoretical-physics/' %}active{% endif %}">
+                {% if page.url == '/theoretical-physics/' %}{ Physics }{% else %}Physics{% endif %}
+              </a>
+            </li>
+            <li>
+              <a href="{{ '/writing/' | relative_url }}" class="{% if page.url == '/writing/' %}active{% endif %}">
+                {% if page.url == '/writing/' %}{ Writing }{% else %}Writing{% endif %}
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </div>
-  </header>
-
-  <main class="main-content">
+    </nav>
+    </header>
+  
+    <div class="container">  <main class="main-content">
     <div class="body-container">
+      <h2>{{ page.title }}</h2>
+      <div class="date-tag">{{ page.date | date_to_string }}</div>
       <div class="grey-text">
         {{ content }}
       </div>
@@ -79,9 +100,10 @@
             </div>
         </div>
     </form>
+  </div>
     </div>
     </div>
-    </div>
+  </body>
 
   </main>
 
