@@ -5,15 +5,14 @@ layout: page-template
 Subscribe to my <a href="https://www.theschillingpoint.com/subscribe">Substack</a> to follow my future writing.
 
 {% for post in site.posts %}
+
 <article>
-  <h2>
-    <a href="{{ post.url }}" style="color: #0066cc;">
+  <h3>
+    <a href="{{ post.url }}" style="color: #000; text-decoration: none;">
       {{ post.title }}
     </a>
-  </h2>
-  </h2>
-  <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-  {{ post.content }}
+  </h3>
+  <div class="date-tag">
+  <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></div>
 </article>
 {% endfor %}
-

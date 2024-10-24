@@ -27,10 +27,9 @@ Starting from January 2024, I will regularly share some of the best books I have
 The following books are more books I enjoyed, including textbooks.
 1. MTW -- [Gravitation](https://en.wikipedia.org/wiki/Gravitation_(book)) is my favourite GR textbook.
 2. Edwin Abbott -- [Flatland](https://en.wikipedia.org/wiki/Flatland) is an exhilarating "mathematical fiction".
-3. Norbert Wiener -- [Cybernetics](https://en.wikipedia.org/wiki/Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine)
-4. Hal Varian -- Microeconomic Analysis.
-5. J. W. von Goethe -- Faust.
-6. Marcel Proust -- Swann's Way.
+3. Hal Varian -- Microeconomic Analysis.
+4. J. W. von Goethe -- Faust.
+5. Marcel Proust -- Swann's Way.
 
 
 ### Essays
@@ -60,6 +59,11 @@ On Political Philosophy.
 24. Leo Strauss (1975) -- The Three Waves of Modernity
 22. Immanuel Kant (1795) -- Zum Ewigen Frieden
 
+On Engineering.
+1. Richard Feynmann [There's Plenty of Room At The Bottom](https://web.pa.msu.edu/people/yang/RFeynman_plentySpace.pdf)
+2. Norbert Wiener -- [Cybernetics](https://en.wikipedia.org/wiki/Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine)
+3. John von Neumann -- [Theory of Self-Reproducing Automata](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)
+4. Eric Drexler -- [Engines of Creation](https://web.mit.edu/cortiz/www/3.052/3.052CourseReader/3_EnginesofCreation.pdf)
 
 Literature-related essays.
 1. David Foster Wallace -- [Consider the Lobster](https://en.wikipedia.org/wiki/Consider_the_Lobster)
