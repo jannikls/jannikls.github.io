@@ -35,15 +35,12 @@ The following books are more books I enjoyed, including textbooks.
 ### Essays
 On Political Philosophy.
 1. William James (1906) -- [The Moral Equivalent of War](https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_77/October_1910/The_Moral_Equivalent_of_War)
-2. Leo Strauss (1948) –- [Reason and Revelation](https://archive.org/details/LeoStraussReasonAndRevelation1948/mode/2up)
-3. Yoram Hazony (2016) -- [Leo Strauss and the Bible](https://www.yoramhazony.org/wp-content/uploads/2016/07/Hazony-Bible-and-Leo-Strauss-2016.pdf)
 4. Leo Strauss (1952) -- [Progress or Return? The Contemporary Crisis in Western Civilization](https://www.jstor.org/stable/1396371)
 5. Leo Strauss (1943) -- [The Re-education of Axis Countries Concerning the Jews](https://www.jstor.org/stable/20452927)
 6. Leo Strauss (1940) -- [The Living Issues of German Post-War Philosophy]()
 7. Leo Strauss (1941) -- [German Nihilism](https://ia801005.us.archive.org/29/items/LeoStraussGermanNihilismIntegral1941/Leo%20Strauss%20-%20%27%27German%20Nihilism%27%27%20%5BIntegral%2C%201941%5D.pdf)
 8. Peter Thiel (2007) -- [The Straussian Moment](https://gwern.net/doc/politics/2007-thiel.pdf)
 9. Robert Howse -- [The Use and Abuse of Leo Strauss in the Schmitt revival on the German Right -- The Case of Heinrich Meier](https://www.law.nyu.edu/sites/default/files/ECM_PRO_060041.pdf)
-10. Rene Girard (1984) -- [Dionysus versus the Crucified](https://www.jstor.org/stable/2905504)
 11. Friedrich Hayek (1945) -- [The Use of Knowledge in Society](https://statisticaleconomics.org/wp-content/uploads/2013/03/the_use_of_knowledge_in_society_-_hayek.pdf)
 12. Friedrich Hayek (1949)-- [The Intellectuals and Socialism](https://cdn.mises.org/Intellectuals%20and%20Socialism_4.pdf)
 13. Peter Thiel (2008) -- [The Optimistic Thought Experiment](https://www.hoover.org/research/optimistic-thought-experiment)
@@ -59,7 +56,14 @@ On Political Philosophy.
 24. Leo Strauss (1975) -- The Three Waves of Modernity
 22. Immanuel Kant (1795) -- Zum Ewigen Frieden
 
-On Engineering.
+On Political Theology.
+2. Leo Strauss (1948) –- [Reason and Revelation](https://archive.org/details/LeoStraussReasonAndRevelation1948/mode/2up)
+3. Yoram Hazony (2016) -- [Leo Strauss and the Bible](https://www.yoramhazony.org/wp-content/uploads/2016/07/Hazony-Bible-and-Leo-Strauss-2016.pdf)
+10. Rene Girard (1984) -- [Dionysus versus the Crucified](https://www.jstor.org/stable/2905504)
+11. Rene Girard (1990) -- [Innovation and Repetition](https://www.jstor.org/stable/3684663)
+
+
+On New Branches of Engineering.
 1. Richard Feynmann [There's Plenty of Room At The Bottom](https://web.pa.msu.edu/people/yang/RFeynman_plentySpace.pdf)
 2. Norbert Wiener -- [Cybernetics](https://en.wikipedia.org/wiki/Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine)
 3. John von Neumann -- [Theory of Self-Reproducing Automata](https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf)
@@ -75,6 +79,14 @@ The Great Books are rightly held in high regard. However, even if you believe th
 2. Normann Angell -- The Great Illusion; Recommendation from Peter.
 3. Vladimir Sergeyevich Solovyov-- War, Progress, and the end of History, Including a Short Story of the Anti-Christ. Three Discussions; Recommendation from Peter.
 4. Wendell Willkie -- One World; Recommendation from Peter.
+
+### Some Physics Textbooks.
+I learned most physics through German textbooks which I will not link here. The few English ones I still own are:
+1. Gravitation -- Charles W. Misner, John Archibald Wheeler, and Kip Thorne
+1. An Introduction to Differential Geometry -- T. J. Willmore
+2. Tensors -- Mathematics of Differential Geometry and Relativity -- Zafar Ahsan
+3. Curvature in Mathematics and Physics -- Shlomo Sternberg
+4. To be completed.
 
 ### Movies
 Some of my favourite movies:
