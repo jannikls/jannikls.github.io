@@ -2,10 +2,12 @@
 layout: default2
 permalink: /
 ---
-I'm Jannik Schilling, a German-born investor, currently at Founders Fund, now living in Miami. In a previous life, I was a physicist, and before that, a programmer.
+I am a [physicist](/theoretical-physics/), investor, and [researcher](/research/). I am an investor at Founders Fund and live in the Bay Area. Home is Hamburg, Germany.
 
-I left a theoretical physics degree at a young age; I always cared about scientific and technological breakthroughs but found universities to be a place of too much distraction from important scientific work. I knew that I had to pursue my curiosities elsewhere. Recognizing that we live in commercial republics in the West, I found that place in helping to build and invest in technologies that matter.
+I left a theoretical physics degree at a young age. My research focus was on galaxy simulations and star formations. I always cared about increasing the number of scientific and technological breakthroughs. Unfortunately, I found universities to be failing at this. My obsession with physics was preceeded by an interest in programming and deep learning.
 
-As a supplement to my day-work, I write a blog ranging from what I have been reading to thoughts on startups, physics, and philosophy, supported by [Emergent Ventures](https://www.mercatus.org/emergent-ventures). Recent intellectual interests include Roman history, the origins of modernity, and political philosophy.
+Today, I am helping to build and invest in technologies that matter. I would love to see more young, ambitious people work on revolutionary technologies, like nano bots, whole-human-body simlulations on a cellular level, or eradicating the flu.
 
-I answer all my [emails](mailto:janniklschilling@gmail.com).
+I am grateful that my blog, [The Schilling Point](https://www.theschillingpoint.com), is supported by [Emergent Ventures](https://www.mercatus.org/emergent-ventures). Recent intellectual interests include nano technology, Spinoza, and the history of the Roman Republic.
+
+The best way to get in touch with me is by email. I answer all serious emails, at [janniklschilling@gmail.com](mailto:janniklschilling@gmail.com). I am also on Twitter, [@jannikschg](x.com/jannikschg).
