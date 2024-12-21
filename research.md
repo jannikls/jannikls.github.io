@@ -5,7 +5,7 @@ permalink: /research/
 ---
 
 Here are some research questions that I am currently thinking about:
-1. Why has progress in neuroscience been so depressing?
+1. Why has progress in neuroscience in the last decade been so depressing?
   * Neuroscience has been too dogmatic for at least ten years.
 2. What are underappreciated science projects?
   * Simulating the brain of worms, and beyond. A good starting point is [We Haven't Uploaded Worms](https://www.jefftk.com/p/we-havent-uploaded-worms).
