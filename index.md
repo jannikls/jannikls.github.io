@@ -2,7 +2,7 @@
 layout: default2
 permalink: /
 ---
-I am a [physicist](/theoretical-physics/), investor, and researcher. I am an investor at Founders Fund and live in the Bay Area. Home is Hamburg, Germany.
+I am a [physicist](/theoretical-physics/), investor, and researcher. I am an investor at Founders Fund and live in Silicon Valley. Hamburg, Germany is home.
 
 I left a theoretical physics degree at a young age. My research focus was on galaxy simulations and star formations. I always cared about increasing the number of scientific and technological breakthroughs. Unfortunately, I found universities to be failing at this. My obsession with physics was preceeded by an interest in programming and deep learning.
 
