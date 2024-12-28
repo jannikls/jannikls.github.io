@@ -51,21 +51,6 @@
                 {% if page.url == '/' %}{ Home }{% else %}Home{% endif %}
               </a>
             </li>
-            <li>
-              <a href="{{ '/bookshelf/' | relative_url }}" class="{% if page.url == '/bookshelf/' %}active{% endif %}">
-                {% if page.url == '/bookshelf/' %}{ Bookshelf }{% else %}Bookshelf{% endif %}
-              </a>
-            </li>
-            <li>
-              <a href="{{ '/theoretical-physics/' | relative_url }}" class="{% if page.url == '/theoretical-physics/' %}active{% endif %}">
-                {% if page.url == '/theoretical-physics/' %}{ Physics }{% else %}Physics{% endif %}
-              </a>
-            </li>
-            <li>
-              <a href="{{ '/writing/' | relative_url }}" class="{% if page.url == '/writing/' %}active{% endif %}">
-                {% if page.url == '/writing/' %}{ Writing }{% else %}Writing{% endif %}
-              </a>
-            </li>
           </ul>
         </nav>
       </div>
@@ -75,34 +60,12 @@
     <div class="container">  <main class="main-content">
     <div class="body-container">
       <h2>{{ page.title }}</h2>
-      <div class="date-tag">{{ page.date | date_to_string }}</div>
+      <div class="date-tag">{{ page.date | date: "%B %-d, %Y" }}</div>
       <div class="grey-text">
         <p><i>This essay can also be found on my <a href="https://open.substack.com/pub/theschillingpoint">Substack</a>, where you can also subscribe to my future writing.</i></p>
 
         {{ content }}
       </div>
-
-      <div id="mc_embed_signup" style="margin-left: -20px; padding-top: 10px;">
-        <form action="https://jannikschilling.us21.list-manage.com/subscribe/post?u=f89d10e0abc7fbfe9448deecc&amp;id=5ff74561c4&amp;f_id=0078f7e6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="">
-            <div id="mc_embed_signup_scroll"><h3>Subscribe here.</h3>
-                <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
-            <div id="mce-responses" class="clear foot">
-                <div class="response" id="mce-error-response" style="display: none;"></div>
-                <div class="response" id="mce-success-response" style="display: none;"></div>
-            </div>
-        <div aria-hidden="true" style="position: absolute; left: -5000px;">
-            /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
-            <input type="text" name="b_f89d10e0abc7fbfe9448deecc_5ff74561c4" tabindex="-1" value="">
-        </div>
-            <div class="optionalParent">
-                <div class="clear foot">
-                    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
-                </div>
-            </div>
-        </div>
-    </form>
-  </div>
     </div>
     </div>
   </body>

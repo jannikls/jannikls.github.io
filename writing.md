@@ -14,6 +14,3 @@ layout: page-template
   </h4>
 </div>
 {% endfor %}
- <!--
-<h2 style="padding-top: 30px;">Notes</h2>
-<h4 id="notes"><a href="">Interesting Bible passages</a></h4>-->
