@@ -787,3 +787,26 @@ body {
     margin: 0 -5px;
   }
 }
+
+.post-container {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: inherit; /* Keep your site's font */
+}
+.post-date {
+  font-size: 14px;
+  color: #888; /* Light grey */
+  margin-right: 10px; /* Spacing between date and title */
+  white-space: nowrap; /* Prevent date from wrapping to a new line */
+}
+.post-title {
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.4;
+  display: inline;
+}
+.post-title a {
+  color: #000;
+  text-decoration: none;
+}
