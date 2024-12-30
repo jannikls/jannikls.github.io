@@ -38,6 +38,7 @@ h1 {
   font-size: 20px; /* Reduced font size */
   margin: 0;
   text-transform: uppercase;
+  font-weight: normal; /* or a specific value like 400 */
 }
 
 nav ul {

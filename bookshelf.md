@@ -46,6 +46,11 @@ On History.
 1. The Storm before the Storm
 2. The Final Pagan Generation
 
+On New Economics.
+1. Joseph Schumpeter. Kapitalismus, Sozialismus und Demokratie.
+1. Jonathan Nitzan & Shimshon Bichler -- Capital as Power.
+1. Hayek
+
 On Political Philosophy II (Misc).
 1. William James (1906) -- [The Moral Equivalent of War](https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_77/October_1910/The_Moral_Equivalent_of_War)
 22. Immanuel Kant (1795) -- Zum Ewigen Frieden
