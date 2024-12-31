@@ -10,4 +10,4 @@ Today, I am help build and invest in technologies that matter. I would love to s
 
 I am grateful that my blog [The Schilling Point](https://www.theschillingpoint.com) was supported by [Emergent Ventures](https://www.mercatus.org/emergent-ventures) in 2023. Recent intellectual interests include nano technology, Spinoza, and the history of the Roman Republic.
 
-The best way to get in touch with me is to email me at [jannik@jannikschilling.com](mailto:jannik@jannikschilling.com). I answer all serious emails. I am also on Twitter, [@jannikschg](https://x.com/jannikschg).
+The best way to get in touch with me is to [email me](mailto:janniklschilling@gmail.com). I answer all serious emails. I am also on [Twitter](https://x.com/jannikschg).
