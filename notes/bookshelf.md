@@ -3,7 +3,7 @@ title: Bookshelf
 layout: page-template
 permalink: /bookshelf/
 ---
-Jump to [Books](#books), [Essays](#essays), [Rare Books](#rare-ish-books).
+Jump to [Books](#books), [Essays](#essays), [Rare Books](#rare-ish-books), [Physics Textbooks](#physics-textbooks), [Movies](#movies), [Memos](#memos).
 
 This page is under construction. If you want to recommend any books or essays to me or want to talk about any of these books, feel free to [email me](mailto:janniklschilling@gmail.com). I answer all my emails.
 
@@ -31,50 +31,42 @@ I find myself recommending the following books quite often; I maintain a high st
 
 
 ### Essays
-On Political Philosophy I (Leo Strauss).
-4. Leo Strauss (1952) -- [Progress or Return? The Contemporary Crisis in Western Civilization](https://www.jstor.org/stable/1396371)
-5. Leo Strauss (1943) -- [The Re-education of Axis Countries Concerning the Jews](https://www.jstor.org/stable/20452927)
-6. Leo Strauss (1940) -- [The Living Issues of German Post-War Philosophy]()
-7. Leo Strauss (1941) -- [German Nihilism](https://ia801005.us.archive.org/29/items/LeoStraussGermanNihilismIntegral1941/Leo%20Strauss%20-%20%27%27German%20Nihilism%27%27%20%5BIntegral%2C%201941%5D.pdf)
-20. Leo Strauss (1963) -- On Tyranny
-21. Leo Strauss (1952) -- Persecution and the Art of Writing
-22. Leo Strauss (1962) -- The Crisis of Political Philsophy and The Crisis of Our Time
-24. Leo Strauss (1975) -- The Three Waves of Modernity
-24. Leo Strauss -- Notes on Carl Schmitt, The Concept of The Political
+
+On Political Philosophy.
+1. [Leo Strauss](/leostrauss)
+1. William James -- [The Moral Equivalent of War](https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_77/October_1910/The_Moral_Equivalent_of_War)
+22. Immanuel Kant (1795) -- Zum Ewigen Frieden
+8. Peter Thiel -- [The Straussian Moment](https://gwern.net/doc/politics/2007-thiel.pdf)
+9. Robert Howse -- [The Use and Abuse of Leo Strauss in the Schmitt revival on the German Right -- The Case of Heinrich Meier](https://www.law.nyu.edu/sites/default/files/ECM_PRO_060041.pdf)
+11. Friedrich Hayek -- [The Use of Knowledge in Society](https://statisticaleconomics.org/wp-content/uploads/2013/03/the_use_of_knowledge_in_society_-_hayek.pdf)
+12. Friedrich Hayek -- [The Intellectuals and Socialism](https://cdn.mises.org/Intellectuals%20and%20Socialism_4.pdf)
+13. Peter Thiel -- [The Optimistic Thought Experiment](https://www.hoover.org/research/optimistic-thought-experiment)
+14. John Stuart Mill (1874) -- [Theism](https://www.earlymoderntexts.com/assets/pdfs/mill1873d.pdf)
+15. T.S. Eliot -- [Tradition and the Individual Talent](https://socrates.acadiau.ca/courses/engl/rcunningham/Winter2020/engl5013_poetics/texts/eliot_tradition.pdf)
+16. Edmund Burke (1790) -- [Reflections on the Revolution in France, Part I](https://www.earlymoderntexts.com/assets/pdfs/burke1790part1.pdf)
+17. Paul Valery -- [The Conquest of Ubiquity](https://mtyka.github.io//make/2015/09/12/the-conquest-of-ubiquity.html)
+18. Tom Wolfe -- [Sorry, But Your Soul Just Died](https://www3.nd.edu/~afreddos/courses/43151/WolfeSoulDied.php.htm)
 
 On History.
-1. The Storm before the Storm
+1. The Storm Before the Storm
 2. The Final Pagan Generation
 
 On New Economics.
 1. Joseph Schumpeter. Kapitalismus, Sozialismus und Demokratie.
 1. Jonathan Nitzan & Shimshon Bichler -- Capital as Power.
-1. Hayek
-
-On Political Philosophy II (Misc).
-1. William James (1906) -- [The Moral Equivalent of War](https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_77/October_1910/The_Moral_Equivalent_of_War)
-22. Immanuel Kant (1795) -- Zum Ewigen Frieden
-8. Peter Thiel (2007) -- [The Straussian Moment](https://gwern.net/doc/politics/2007-thiel.pdf)
-9. Robert Howse -- [The Use and Abuse of Leo Strauss in the Schmitt revival on the German Right -- The Case of Heinrich Meier](https://www.law.nyu.edu/sites/default/files/ECM_PRO_060041.pdf)
-11. Friedrich Hayek (1945) -- [The Use of Knowledge in Society](https://statisticaleconomics.org/wp-content/uploads/2013/03/the_use_of_knowledge_in_society_-_hayek.pdf)
-12. Friedrich Hayek (1949)-- [The Intellectuals and Socialism](https://cdn.mises.org/Intellectuals%20and%20Socialism_4.pdf)
-13. Peter Thiel (2008) -- [The Optimistic Thought Experiment](https://www.hoover.org/research/optimistic-thought-experiment)
-14. John Stuart Mill (1874) -- [Theism](https://www.earlymoderntexts.com/assets/pdfs/mill1873d.pdf)
-15. T.S. Eliot (1919) -- [Tradition and the Individual Talent](https://socrates.acadiau.ca/courses/engl/rcunningham/Winter2020/engl5013_poetics/texts/eliot_tradition.pdf)
-16. Edmund Burke (1790) -- [Reflections on the Revolution in France, Part I](https://www.earlymoderntexts.com/assets/pdfs/burke1790part1.pdf)
-17. Paul Valery (1928) -- [The Conquest of Ubiquity](https://mtyka.github.io//make/2015/09/12/the-conquest-of-ubiquity.html)
-18. Tom Wolfe (1996) -- [Sorry, But Your Soul Just Died](https://www3.nd.edu/~afreddos/courses/43151/WolfeSoulDied.php.htm)
+1. Hayek   
 
 On Political Philosophy, History, and Technology.
 1. Martin Heidegger -- [The Question Concerning Technology](https://www2.hawaii.edu/~freeman/courses/phil394/The%20Question%20Concerning%20Technology.pdf)
 19. R. Barbrook & A. Cameron (1995) -- [The Californian Ideology](http://www.comune.torino.it/gioart/big/bigguest/riflessioni/californian_engl.pdf)
 3. Joan Didion -- Slouching Towards Bethlehem
+11. Rene Girard -- [Innovation and Repetition](https://www.jstor.org/stable/3684663)
+
 
 On Political Theology.
-2. Leo Strauss (1948) -- [Reason and Revelation](https://archive.org/details/LeoStraussReasonAndRevelation1948/mode/2up)
-3. Yoram Hazony (2016) -- [Leo Strauss and the Bible](https://www.yoramhazony.org/wp-content/uploads/2016/07/Hazony-Bible-and-Leo-Strauss-2016.pdf)
-10. Rene Girard (1984) -- [Dionysus versus the Crucified](https://www.jstor.org/stable/2905504)
-11. Rene Girard (1990) -- [Innovation and Repetition](https://www.jstor.org/stable/3684663)
+2. Leo Strauss -- [Reason and Revelation](https://archive.org/details/LeoStraussReasonAndRevelation1948/mode/2up)
+3. Yoram Hazony -- [Leo Strauss and the Bible](https://www.yoramhazony.org/wp-content/uploads/2016/07/Hazony-Bible-and-Leo-Strauss-2016.pdf)
+10. Rene Girard -- [Dionysus versus the Crucified](https://www.jstor.org/stable/2905504)
 1. Wolfgang Palaver -- [Hobbes and the Katechon: The Secularization of Sacrifical Christianity](https://www.uibk.ac.at/theol/cover/contagion/contagion2/contagion02_palaver.pdf)
 
 On New Branches of Engineering.
@@ -96,7 +88,7 @@ The Great Books are rightly held in high regard. However, even if you believe th
 3. Vladimir Sergeyevich Solovyov-- War, Progress, and the end of History, Including a Short Story of the Anti-Christ. Three Discussions; Recommendation from Peter.
 4. Wendell Willkie -- One World; Recommendation from Peter.
 
-### Some Physics Textbooks.
+### Physics Textbooks
 I learned most physics through German textbooks which I will not link here. The few English ones I still own are:
 1. Gravitation -- Charles W. Misner, John Archibald Wheeler, and Kip Thorne
 1. An Introduction to Differential Geometry -- T. J. Willmore

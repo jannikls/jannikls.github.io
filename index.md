@@ -2,7 +2,7 @@
 layout: default4
 permalink: /
 ---
-I am a [physicist](/theoretical-physics/) and investor. I invest at Founders Fund and live in Silicon Valley. I like to read obscure [books](/bookshelf) and write [essays](/writing) – subscribe [here](https://www.theschillingpoint.com/subscribe).
+I am a [physicist](/theoretical-physics/) and investor. I invest at Founders Fund and live in Silicon Valley. I like to read obscure [books](/bookshelf/) and write [essays](/writing) – subscribe [here](https://www.theschillingpoint.com/subscribe).
 
 I left a theoretical physics degree at a young age. My research focus was on galaxy simulations and star formations. I always cared about increasing the number of scientific and technological breakthroughs. Unfortunately, I found that universities mostly failed at this. My obsession with physics was motivated by an early obsession with programming and deep learning. I was born and raised in Hamburg, Germany.
 

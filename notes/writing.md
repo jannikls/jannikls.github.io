@@ -1,6 +1,7 @@
 ---
 title: The Schilling Point
 layout: page-template
+permalink: /writing/
 ---
 <p><i>Subscribe <a href="https://www.theschillingpoint.com/subscribe">here</a>.</i></p>
 
