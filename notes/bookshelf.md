@@ -8,11 +8,11 @@ Jump to [Books](#books), [Essays](#essays), [Rare Books](#rare-ish-books), [Phys
 This page is under construction. If you want to recommend any books or essays to me or want to talk about any of these books, feel free to [email me](mailto:janniklschilling@gmail.com). I answer all my emails.
 
 ### Books
-A book being included in my reading list does not imply that I endorse the view of the book. Or, to state it differently, by quoting Montaigne: *"All I say is by way of discourse, and nothing by way of advice. I should not speak so boldly if it were my due to be believed."* Starting January 2024, I will regularly share books I've read in reading lists:
+The books on my reading list do not imply endorsement of their views. Or, to state it differently, by quoting Montaigne: *"All I say is by way of discourse, and nothing by way of advice. I should not speak so boldly if it were my due to be believed."* Starting January 2024, I will regularly share books I've read in reading lists:
 1. [Spring 2024](/books-2024-spring)
 2. [Summer 2024](/books-2024-summer)
 
-I find myself recommending the following books quite often; I maintain a high standard for recommending a book here; the list is in no particular order.
+I find myself recommending the following books often; I maintain a high standard for recommending a book here; the list is in no particular order.
 1. Lee Kuan Yew -- <a href="https://www.amazon.com/Third-World-First-Singapore-1965-2000/dp/0060197765">From Third World to First: The Singapore Story: 1965-2000</a>.
 2. Cixin Liu -- Remembrance of Earth's Past.
 3. Graham Moore -- The Last Days of Night.
@@ -103,6 +103,6 @@ Some of my favourite movies:
 3. Chef's Table on Netflix
 
 ### Memos
-I sometimes come across interesting memos while researching my latest curiorisities. I curate and share the most interesting ones below.
+I sometimes come across interesting memos and curate the best ones below.
 1. <a href="https://airliners.net/forum/viewtopic.php?f=3&t=213075">"The Downfall of a Great American Airplane Company -- An Insider's Perspective"</a> Memo by Boeing engineers on the downfall of their commercial airline division.
 2. <a href="https://medium.com/@sosofancy/the-secret-diary-of-a-sustainable-investor-part-1-70b6987fa139">The Secret Diary of a ‘Sustainable Investor’</a> Memo by Tariq Fancy, former CIO for Sustainable Investing at Blackrock, outlining why ESG is not working.
