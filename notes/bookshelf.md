@@ -5,7 +5,7 @@ permalink: /bookshelf/
 ---
 Jump to [Books](#books), [Essays](#essays), [Rare Books](#rare-ish-books), [Physics Textbooks](#physics-textbooks), [Movies](#movies), [Memos](#memos).
 
-This page is under construction. If you want to recommend any books or essays to me or want to talk about any of these books, feel free to [email me](mailto:janniklschilling@gmail.com). I answer all my emails.
+Please [email me](mailto:janniklschilling@gmail.com) book recommendations! I answer all my emails.
 
 ### Books
 The books on my reading list do not imply endorsement of their views. Or, to state it differently, by quoting Montaigne: *"All I say is by way of discourse, and nothing by way of advice. I should not speak so boldly if it were my due to be believed."* Starting January 2024, I will regularly share books I've read in reading lists:
@@ -47,14 +47,20 @@ On Political Philosophy.
 17. Paul Valery -- [The Conquest of Ubiquity](https://mtyka.github.io//make/2015/09/12/the-conquest-of-ubiquity.html)
 18. Tom Wolfe -- [Sorry, But Your Soul Just Died](https://www3.nd.edu/~afreddos/courses/43151/WolfeSoulDied.php.htm)
 
-On History.
-1. The Storm Before the Storm
-2. The Final Pagan Generation
-
 On New Economics.
 1. Joseph Schumpeter. Kapitalismus, Sozialismus und Demokratie.
 1. Jonathan Nitzan & Shimshon Bichler -- Capital as Power.
-1. Hayek   
+1. Hayek
+
+On The History of Financial Institution.
+1. The House of Morgan
+1. The Money Machine
+1. Liar's Poker
+1. More Money than God
+
+History of 20th Century Industrial Capitalism
+1. Ron Chernow -- Titan
+1. Alfred Chandler -- Scale and Scope
 
 On Political Philosophy, History, and Technology.
 1. Martin Heidegger -- [The Question Concerning Technology](https://www2.hawaii.edu/~freeman/courses/phil394/The%20Question%20Concerning%20Technology.pdf)
@@ -84,8 +90,9 @@ Literature-related essays.
 The Great Books are rightly held in high regard. However, even if you believe that most Great Books are recognized at some point as works of great merit, you should not be blinded and believe that there are no great but forgotten books. There are books that are too wrong, maybe too dangerous, or simply out-of-fashion and are thus not well-known at all today. While I haven't found as many of these books as I would like yet, I want to share a few here to illustrate my argument. If you come across any forgotten books that you think are great, please [email me](mailto:janniklschilling@gmail.com)!
 
 1. Ivan Turgenev -- Smoke, A Novel.
+2. Ivan Turgenev -- Virgin Soil.
 2. Normann Angell -- The Great Illusion; Recommendation from Peter.
-3. Vladimir Sergeyevich Solovyov-- War, Progress, and the end of History, Including a Short Story of the Anti-Christ. Three Discussions; Recommendation from Peter.
+3. Vladimir Sergeyevich Solovyov -- War, Progress, and the end of History, Including a Short Story of the Anti-Christ. Three Discussions; Recommendation from Peter.
 4. Wendell Willkie -- One World; Recommendation from Peter.
 
 ### Physics Textbooks
