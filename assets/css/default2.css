@@ -1,6 +1,6 @@
 :root {
   --max-width: 670px; /* Reduced fixed width */
-  --body-color: #fff;
+  --body-color: #f5ecdc;
   --body-font-color: #000;
   --header-font-color: #000;
   --accent-color: #0066cc;
@@ -35,10 +35,11 @@ header {
 
 h1 {
   font-family: "Alegreya SC", serif;
-  font-size: 20px; /* Reduced font size */
+  font-size: 50px; /* Reduced font size */
   margin: 0;
-  text-transform: uppercase;
+  text-transform: none  ;
   font-weight: normal; /* or a specific value like 400 */
+  line-height: 100%;
 }
 
 nav ul {

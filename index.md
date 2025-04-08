@@ -1,13 +1,12 @@
 ---
-layout: default4
-permalink: /
+layout: default4  
+permalink: /  
 ---
-I am a physicist and investor. Since 2024, I invest at Founders Fund and live in Silicon Valley. I like to [write](https://www.theschillingpoint.com/) [essays](/writing) and read [obscure books](/bookshelf/). I sometimes angel invest.
 
-I left a theoretical physics degree at a young age, where my research focused on Galaxy Simulations and Star Formation. I learned how to code when I was around 7 or so, which eventually drove me to learn about deep learning and theoretical physics. I ultimately left physics research because it stagnated and no one I knew cared about working on the ideas I found interesting. I want to help increase the number of scientific and technological breakthroughs. I grew up in Hamburg, Germany.
+I am a physicist and angel investor, currently learning and thinking about technical frontiers, especially AI. I live in San Francisco and grew up in Germany. Previously, I was an investor at Founders Fund.
 
-Today, I focus on building and funding technologies that matter. Beyond investing, I think about how we can better fund and build frontier research and technology companies. There are still not enough highly-technical and ambitious people working on hard technical problems. There is also not enough experimentation with better models of capital formation to back them.
+At a young age, I studied theoretical physics and researched galaxy simulations and star formation. I found that theoretical physics stagnated and left the field. I still think about ways to fix foundational science and try reading as many physics papers (email me your favourites).
 
-I am currently reading about the end of the Roman Republic, the history of 20th century industrial capitalism, and merchant banking.
+I like to [write](https://www.theschillingpoint.com/) [essays](/writing) and read [obscure books](/bookshelf/). Philosophers I return to include the early rationalists, especially Francis Bacon and Immanuel Kant, as well as Leo Strauss and René Girard. Novelists I admire include Fyodor Dostoevsky, Jane Austen, Thomas Mann, Johann Wolfgang von Goethe, and Marcel Proust.
 
-The best way to get in touch with me is via [email me](mailto:janniklschilling@gmail.com) and [Twitter](https://x.com/jannikschg). I answer all serious messages.
+If you’re thinking about similar questions, I would love to hear from you. The best way to get in touch with me is via [email](mailto:janniklschilling@gmail.com) or [Twitter](https://x.com/jannikschg). I answer all serious messages.

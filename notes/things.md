@@ -1,1 +1,0 @@
-1. Astrophotography (2017 and 2018)
