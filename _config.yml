@@ -29,7 +29,7 @@ twitter_username: jannikschg
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-redirect-from
 defaults:
   - scope:
       path: "_pages"

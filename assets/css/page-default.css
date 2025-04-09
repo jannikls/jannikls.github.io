@@ -789,11 +789,12 @@ body {
 }
 
 .post-container {
-  display: inline-flex;
+  display:  flex;
   align-items: center;
   margin-bottom: 10px;
   font-family: inherit; /* Keep your site's font */
 }
+
 .post-date {
   font-size: 14px;
   color: #888; /* Light grey */
