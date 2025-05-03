@@ -1,0 +1,164 @@
+:root {
+  --max-width: 670px; /* Reduced fixed width */
+  --body-color: #f5ecdc;
+  --body-font-color: #000;
+  --header-font-color: #000;
+  --accent-color: #0066cc;
+  --text-width: 600px; /* Reduced paragraph text width */
+}
+
+body {
+  font-family: 'Alice', serif;
+  line-height: 1.6;
+  color: var(--body-font-color);
+  background-color: var(--body-color);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Alegreya SC", serif;
+  font-size: 50px; /* Reduced font size */
+  margin: 0;
+  text-transform: none  ;
+  font-weight: normal; /* or a specific value like 400 */
+  line-height: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 30px; /* Increased gap between nav links */
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--body-font-color);
+  font-size: 16px; /* Regular font size */
+  font-weight: normal;
+  font-family: "Alegreya SC", serif;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px; /* Adjust spacing for vertical layout */
+    align-items: center;
+  }
+  
+  nav a {
+    font-size: 18px; /* Slightly larger font size for mobile */
+  }
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #000; /* Social links in black */
+  font-size: 18px; /* Increased font size */
+  font-weight: normal;
+}
+
+/* Previous link formatting */
+.text-content a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.text-content a:hover {
+  text-decoration: underline;
+}
+
+
+nav li {
+  margin-left: 20px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Reduced gap */
+  margin-top: 60px;
+}
+
+.profile-pic {
+  flex-shrink: 0;
+}
+
+.profile-image {
+  width: 200px; /* Increased profile picture size */
+  height: 200px; /* Increased profile picture size */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.intro-text h2 {
+  font-family: "Alegreya SC", serif;
+  font-size: 24px; /* Reduced headline font size */
+  margin: 0 0 10px;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  gap: 30px;
+}
+
+.social-links li {
+  margin: 0;
+}
+
+
+main {
+  margin-top: 60px;
+  max-width: var(--text-width); /* Restricted width of the text */
+}
+
+.text-content p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  text-align: center;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .intro-text h2 {
+    font-size: 22px;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+}

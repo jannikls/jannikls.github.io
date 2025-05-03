@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "On Betting Against NVIDIA's plans"
+date:   2024-04-30 06:00:00 +0000
+permalink: "/betting-against-nvidia/"
+slug: "betting-against-nvidia"
+---
+_“Still to this day, if you ask founders, ‘Are you afraid that Microsoft might do what you’re doing?’ None of them are. It’s still not a threat to start-ups. Yes, it makes more money now, but it’s still not a threat like it used to be. It doesn’t matter in the sense of factoring into anyone’s plans for the future. No start-up is thinking, ‘Well, I better not do that because Microsoft might enter that and destroy me.’”_ – [Paul Graham](https://conversationswithtyler.com/episodes/paul-graham/)
+
+The best technology startups [build monopolies](https://www.amazon.com/Zero-to-One-audiobook/dp/B00M284NY2/). Historically, one way of building a monopoly is entering technologically-antique markets with low levels of competition and technological change and overtaking the pre-existing monopoly profits.
+
+But what happens when startups instead attempt to disrupt a deep-tech market with a monopoly player that is much more technologically sophisticated, like NVIDIA for Chips or OpenAI for LLMs? These new startups often think about themselves along the lines of: “NVIDIA will not build X because Y. We will build X and X will be more effective than NVIDIA’s H100s.”
+
+I argue that these startups face a distinct form of risk: **Information risk.** Information risk is the risk that the startup’s market intelligence on NVIDIA is wrong or their understanding of why NVIDIA is not pursuing X is wrong.
+
+Don’t get me wrong: There are amazing startup opportunities in deep-tech and semiconductors – especially for nascent technologies with low science/high engineering risk. However, there is also a stronger version of the efficient market hypothesis in these markets. For incremental advances, the high upfront investments, (tacit) knowledge barriers, and a pre-existing monopoly player raise the barrier of entry substantially; in some cases, there are very good reasons for NVIDIA (or anyone) not pursuing X. 
+
+In these markets, the information risk is knowing what the monopoly player plans to do in the future. These plans, especially in tacit-knowledge intense industries such as chip design, are gatekept by NVIDIA/TSMC executives and engineers. 
+
+Information risk is distinct from market risk because [market risk](https://www.sequoiacap.com/article/pmf-framework/) is [“the possibility that people won't use a product, even if it's great”](https://www.upsilonit.com/blog/most-common-startup-risks-how-to-manage-them#:~:text=1.,resources%20into%20building%20the%20product.), while information risk is the possibility that you are building something that will be built by NVIDIA or NVIDIA rejected because they have a better but gatekept understanding for why this technology does not work.
+
+To illustrate, designing better chips than NVIDIA takes high upfront investment because you need to build the research and testing, production, and distribution capacities that make NVIDIA unique. R\&D advances take years to come to fruition, and designing better chips requires high levels of tacit knowledge. More specifically, choosing a unique research agenda that will not be pursued much more effectively by the incumbent player is really hard and seems almost impossible for an outsider. This is partially why Anthropic’s success is not surprising given that the founders are AI insiders and have previously chosen [promising](https://www.youtube.com/watch?v=Nlkk3glap_U) and contrarian research agendas at OpenAI.
+
+Another related mistake is that certain startups claim that they think they could produce chips that are “Z% more effective than H100s.” Regardless of the validity of this claim, this is a category mistake because the comparative that matters is whether the startup can sell better and/or cheaper chips than NVIDIA’s best chips in a few years when the startup is actually able to fabricate and ship their chips.
+
+
+### Distinction with SaaS<a id="distinction-with-saas"></a>
+
+For software companies, asking [“Why Microsoft is not going to build this?”](https://paulgraham.com/microsoft.html) is frowned upon for good reasons. For deep-tech startups, this changes as competing with NVIDIA or OpenAI is much harder unless the startups have a substantially different technological bet or established market players show signs of increasingly poor execution.
+
+One reason is the market dynamics outlined above. Another reason is that for certain technologies, at least right now, the general capabilities scale with ressources. Think of AI scaling laws, humanoid robots, self-driving cars, SpaceX, etc., that require a company investing a lot of money first to catch up with competitors before they can pursue meaningful technological differentiation.
+
+Similarly, failure for deep-tech companies tends to be more devastating because it is harder to acquihire for deep tech and the startup loses physical capital. Conversely, SaaS failure mainly results in lost wages and human years. If failure in a sector happens too often, VCs will feel like the deep-tech field is not worth investing in at scale because they attribute failure to deep tech featuring structurally worse return profiles and science risk being too high, rather than the more likely reasons such as the investment being ex-ante bad with engineering risk or firm specific failures.
+
+Another reason is that deep tech startups are not able to compete with a subset of an incumbent but have to compete with the incumbent as a whole. For SaaS startups, say Calendly, competing with a VP of Google Calendar is easier than competing with the entirety of Google because Calendly benefits from all the [bureaucratic disadvantages](https://x.com/paulg/status/1560349112922279936) without facing the large advantages of Google – but a chip startup is competing with the entirety of NVIDIA. Even in SaaS world, there has been very little competition against Google Search before Perplexity.
+
+**Investing in a SaaS company is not a bet against Google but betting on the next chip startup is a bet against NVIDIA.**
+
+For software startups, information risk historically mattered less because a startup could win simply by moving faster and better than everyone else. For instance, Google tried building a social media site multiple times and was still outcompeted by Facebook.
+
+Famously, Paul Graham [said](https://conversationswithtyler.com/episodes/paul-graham/) in 2007 that “Still to this day, if you ask founders, ‘Are you afraid that Microsoft might do what you’re doing?’ None of them are. It’s still not a threat to start-ups. Yes, it makes more money now, but it’s still not a threat like it used to be. It doesn’t matter in the sense of factoring into anyone’s plans for the future. No start-up is thinking, ‘Well, I better not do that because Microsoft might enter that and destroy me.’”
+
+
+### Implications going forward<a id="implications-going-forward"></a>
+
+The need to gather market intelligence is not a new phenomenon and access to market intelligence has always mattered in venture capital. 
+
+However, information risk is separate from the traditional due diligence and market intelligence gathering a VC conducts because minimizing information risk is about knowing insights gatekept by industry insiders and not merely about understanding the market, technology, and execution risks of a startup.
+
+While the best startups always had some unique insights, startups betting against NVIDIA’s plan are often making highly complex, technical bets that are harder to understand or vet reliably. The best VCs will need to find ways to understand these bets and collect more intelligence themselves before they invest in this class of startups, especially given that most of these startups are going to fail.
+
+As always, there are exceptions to the rule: Elon Musk demonstrated with SpaceX that he can send objects into space cheaper than the monopoly player (NASA). However, NASA was a government-adjacent actor and most of Musk’s companies are better examples of going from [Zero to One](https://www.amazon.com/Zero-to-One-audiobook/dp/B00M284NY2/): Neuralink, Tesla, Starlink, and The Boring Company.
+
+In the end, I predict, we will see more startups in deep-tech frontier markets founded by insiders attempting to disrupt a monopoly player within the industry. Another implication is that there are interesting opportunities in frontier markets that use technology in more creative ways than trying to be better than monopoly players like NVIDIA on an established axis.
+
+**Thanks** to Zi C. (Sam) Huang for extensive collaboration and editing.

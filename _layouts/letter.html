@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <!-- Elegant handwritten font -->
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+  <!-- Envelope & Letter Animation CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/letter.css' | relative_url }}">
+</head>
+<body>
+  <!-- Fullscreen Container for the Envelope Animation -->
+  <div id="envelope-animation">
+    <div id="envelope">
+      <!-- Envelope flap -->
+      <div class="flap"></div>
+      <!-- Envelope body + Wax seal -->
+      <div class="body">
+        <div class="wax-stamp">JS</div>
+      </div>
+      <!-- Letter container (hidden behind flap at first) -->
+      <div class="letter-container">
+        <div class="letter-folded hidden">
+          <div class="fold fold-top"></div>
+          <div class="fold fold-middle"></div>
+          <div class="fold fold-bottom"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Actual Letter Content (shown after animation completes) -->
+  <div id="letter-content" class="hidden">
+    <div class="letter-intro">
+      <p>{{ page.intro | default: "Dear LPs," }}</p>
+    </div>
+    <div class="blog-content">
+      {{ content }}
+    </div>
+  </div>
+
+  <!-- Animation Logic -->
+  <script src="{{ '/assets/js/letter.js' | relative_url }}"></script>
+</body>
+</html>
