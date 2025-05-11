@@ -1,8 +1,9 @@
 ---
 title: Bookshelf
-layout: page-template
+layout: page
 permalink: /bookshelf/
 ---
+
 Please [email me](mailto:janniklschilling@gmail.com) book recommendations. The books listed below do not reflect my personal views, as I read books with a broad range of views. As Montaigne put it, *"All I say is by way of discourse, and nothing by way of advice."*
 
 ### Books and Essays
@@ -68,11 +69,9 @@ Literature-related essays.
 1. David Foster Wallace: [Consider the Lobster](https://en.wikipedia.org/wiki/Consider_the_Lobster)
 
 #### Rare(-ish) Books
-The Great Books are rightly held in high regard. However, even if you believe that most Great Books are recognized at some point as works of great merit, you should not be blinded and believe that there are no great but forgotten books. There are books that are too wrong, maybe too dangerous, or simply out-of-fashion and are thus not well-known at all today. While I haven't found as many of these books as I would like yet, I want to share a few here to illustrate my argument. If you come across any forgotten books that you think are great, please [email me](mailto:janniklschilling@gmail.com)!
-
-1. Ivan Turgenev: Smoke, A Novel.
-2. Ivan Turgenev: Virgin Soil.
+1. Ivan Turgenev: Smoke, A Novel; Virgin Soil.
 2. Normann Angell: The Great Illusion; Recommendation from Peter.
+3. Frederic Lane: Profits from Power; Enterprise and secular change.
 3. Vladimir Sergeyevich Solovyov: War, Progress, and the end of History, Including a Short Story of the Anti-Christ. Three Discussions; Recommendation from Peter.
 4. Wendell Willkie: One World; Recommendation from Peter.
 
