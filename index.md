@@ -3,7 +3,7 @@ layout: default4
 permalink: /  
 ---
 
-I am a physicist by training and currently learning about technical frontiers, especially AI. I live in San Francisco and grew up in Germany. I was previously an investor at Founders Fund.  I actively angel invest in technical founders working on frontiers.
+I am a physicist by training and currently learning about technical frontiers, especially AI. I live in San Francisco and grew up in Germany. I was previously an investor at Founders Fund.  I actively angel invest in technical founders working at the frontier.
 
 At a young age, I studied theoretical physics where I researched galaxy simulations and star formation. After two years, I came to the conclusion that theoretical physics stagnated and left the field. I still think about ways to fix foundational science and try reading as many physics papers as I can (email me your favourites).
 

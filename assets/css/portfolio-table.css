@@ -1,0 +1,38 @@
+.portfolio-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 32px 0 24px 0;
+  font-family: 'Alice', serif;
+  font-size: 1.1rem;
+}
+
+.portfolio-table th, .portfolio-table td {
+  padding: 18px 18px 18px 0;
+  border-bottom: 1px solid #e3e3e3;
+  background: transparent;
+  font-weight: 400;
+}
+
+.portfolio-table th {
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  color: #222;
+  font-weight: 500;
+  border-bottom: 2px solid #dedede;
+}
+
+.portfolio-table td {
+  vertical-align: middle;
+}
+
+.portfolio-table td:last-child {
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .portfolio-table th, .portfolio-table td {
+    padding: 12px 8px 12px 0;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,20 @@
+---
+title:  Portfolio
+layout: page
+permalink: /portfolio/
+---
+
+**Some investments I have made**
+
+<link rel="stylesheet" href="/assets/css/portfolio-table.css">
+<table class="portfolio-table">
+  <thead>
+    <tr>
+      <th>Company</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
