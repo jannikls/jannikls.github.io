@@ -4,43 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }}</title>
-  <!-- Elegant handwritten font -->
-  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
-  <!-- Envelope & Letter Animation CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/letter.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <style>
+    .letter-sidebar {
+      border-radius: 0;
+    }
+    .quarterly-content h2 {
+      border-bottom: 1px solid #ccc;
+    }
+    .re-divider {
+      border-bottom: 2px solid #000;
+    }
+    @media print {
+      .page-break {
+        page-break-after: always;
+      }
+    }
+  </style>
 </head>
 <body>
-  <!-- Fullscreen Container for the Envelope Animation -->
-  <div id="envelope-animation">
-    <div id="envelope">
-      <!-- Envelope flap -->
-      <div class="flap"></div>
-      <!-- Envelope body + Wax seal -->
-      <div class="body">
-        <div class="wax-stamp">JS</div>
+  <div class="letter-outer">
+    <div class="letter-paper">
+      <div class="letter-logo-bar">
+        <img src="{{ '/assets/img/schilling-capital-logo.png' | relative_url }}" alt="Schilling Capital Logo" class="sidebar-logo" />
       </div>
-      <!-- Letter container (hidden behind flap at first) -->
-      <div class="letter-container">
-        <div class="letter-folded hidden">
-          <div class="fold fold-top"></div>
-          <div class="fold fold-middle"></div>
-          <div class="fold fold-bottom"></div>
-        </div>
+      <div class="letter-main">
+        <header class="quarterly-header">
+          <table>
+            <tr><td><strong>To:</strong></td><td>{{ page.to | default: 'Oaktree Clients' }}</td></tr>
+            <tr><td><strong>From:</strong></td><td>{{ page.from | default: 'Your Name' }}</td></tr>
+            <tr><td><strong>Date:</strong></td><td>{{ page.date | date: '%B %Y' }}</td></tr>
+            <tr><td><strong>Re:</strong></td><td>{{ page.subject | default: page.title }}</td></tr>
+          </table>
+          <hr class="re-divider" />
+        </header>
+        <main class="quarterly-content">
+          <p class="letter-greeting">{{ page.dear | default: 'Dear Shareholders,' }}</p>
+          {{ content }}
+          <div class="letter-signature">
+            <span class="signature-text">{{ page.signature_name | default: 'Jannik Schilling' }}</span>
+          </div>
+          <div class="legal-disclaimer">
+            <p>{{ page.legal | default: 'This letter is confidential and intended solely for the addressee. Unauthorized distribution is prohibited.' }}</p>
+          </div>
+        </main>
+        <footer class="quarterly-footer">
+          <p>{{ page.footer | default: '&copy; 2025 Jannik Schilling. Confidential.' }}</p>
+        </footer>
       </div>
     </div>
   </div>
-
-  <!-- Actual Letter Content (shown after animation completes) -->
-  <div id="letter-content" class="hidden">
-    <div class="letter-intro">
-      <p>{{ page.intro | default: "Dear LPs," }}</p>
-    </div>
-    <div class="blog-content">
-      {{ content }}
-    </div>
-  </div>
-
-  <!-- Animation Logic -->
-  <script src="{{ '/assets/js/letter.js' | relative_url }}"></script>
 </body>
 </html>

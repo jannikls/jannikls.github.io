@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/manifesto.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #f8f7f3;
+      color: #181818;
+      font-family: 'Alice', serif;
+      margin: 0;
+      padding: 0;
+    }
+    .manifesto-header {
+      text-align: center;
+      margin: 0 auto 3rem auto;
+      padding-top: 3.5rem;
+    }
+    .manifesto-title {
+      font-family: 'Alegreya SC', serif;
+      font-size: 3.5rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.4rem;
+      color: #181818;
+      text-transform: uppercase;
+    }
+    .manifesto-subtitle {
+      font-family: 'Fira Mono', monospace;
+      font-size: 1.25rem;
+      color: #b1003b;
+      margin-bottom: 2.2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .manifesto-section {
+      max-width: 720px;
+      margin: 0 auto 2.5rem auto;
+      padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 32px rgba(0,0,0,0.07);
+      border-left: 8px solid #b1003b;
+    }
+    .manifesto-section h2 {
+      font-family: 'Alegreya SC', serif;
+      font-size: 2rem;
+      margin: 0 0 1.2rem 0;
+      color: #b1003b;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .manifesto-section p {
+      font-size: 1.22rem;
+      line-height: 1.8;
+      color: #222;
+      margin-bottom: 1.5rem;
+    }
+    .manifesto-quote {
+      font-family: 'Fira Mono', monospace;
+      font-size: 1.12rem;
+      color: #555;
+      background: #f3f0f7;
+      border-left: 4px solid #b1003b;
+      margin: 2.2rem 0;
+      padding: 1.2rem 2rem;
+      border-radius: 0 10px 10px 0;
+    }
+    .manifesto-footer {
+      text-align: center;
+      font-size: 1rem;
+      color: #888;
+      margin: 4rem auto 2rem auto;
+      padding: 0 2rem;
+    }
+    @media (max-width: 800px) {
+      .manifesto-section {
+        padding: 1.2rem 1rem;
+      }
+      .manifesto-title {
+        font-size: 2.2rem;
+      }
+      .manifesto-section h2 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="manifesto-header">
+    <h1 class="manifesto-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <div class="manifesto-subtitle">{{ page.subtitle }}</div>
+    {% endif %}
+  </header>
+  <main>
+    <section class="manifesto-section">
+      {{ content }}
+    </section>
+  </main>
+  <footer class="manifesto-footer">
+    {{ page.footer | default: '&copy; 2025 Jannik Schilling. All rights reserved.' }}
+  </footer>
+</body>
+</html>
