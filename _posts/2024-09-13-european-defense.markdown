@@ -61,8 +61,6 @@ If we get our act together, New Defense for Europe will be built by small nimble
 
 Europe’s defense will look less like a monolithic army of Mordor and more like the free peoples of Middle-earth—sovereign nations with differentiated strategies and weapons, tailored to their own needs, ready to defend and, when necessary, unite against common threats.
 
-If any of the above speaks to you, drop me a line.
-
 I would like to thank John Strider, Sam Huang, and Armin Sommer for their feedback on versions of this essay.
 
 [^1]: [https://people.defensenews.com/top-100/](https://people.defensenews.com/top-100/).

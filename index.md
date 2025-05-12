@@ -11,4 +11,4 @@ When I was 17, I first came to Silicon Valley through an AI Fellowship. It becam
 
 I like to [write essays](/writing) and read [obscure books](/bookshelf/). Philosophers I return to include the early rationalists, especially Francis Bacon and Immanuel Kant, as well as Leo Strauss. Novelists I like include Dostoevsky, Jane Austen, Thomas Mann, Marcel Proust, and Goethe.
 
-If you’re thinking about similar questions, I would love to hear from you. The best way to get in touch with me is via [email](mailto:janniklschilling@gmail.com) or [Twitter](https://x.com/jannikschg). I answer all serious messages.
+If you’re thinking about similar questions, I would love to hear from you. The best way to get in touch with me is via [email](mailto:janniklschilling@gmail.com) or [Twitter](https://x.com/jannikschg). I answer all emails.

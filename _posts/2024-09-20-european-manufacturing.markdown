@@ -68,8 +68,6 @@ European manufacturing once rose from the ashes of WWII to become the export cha
 
 Europe's manufacturing revival depends not on nostalgia, but on founders willing to confront hard truths, abandon comforting delusions, and rethink every step with precision and foresight.
 
-If any of this resonates, I’d love to hear from you.
-
 I would like to thank Sam Huang for feedback on this essay.
 
 [^1]: Factors like an unusually old population, overly rigid apprenticeship programs, and social democracies preventing creative destruction of incumbents more than in previous decades play a role.

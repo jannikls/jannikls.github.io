@@ -5,134 +5,22 @@
   <title>Jannik Schilling</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alice&display=swap" rel="stylesheet">
-  <style>
-:root {
-  --max-width: 900px;
-  --content-width: 700px;
-  --body-color: #fff;
-  --body-font-color: #222;
-  --header-font-color: #111;
-  --accent-color: #0a2540;
-  --text-width: 700px;
-}
-
-body {
-  font-family: 'Alice', serif;
-  line-height: 1.7;
-  color: var(--body-font-color);
-  background-color: var(--body-color);
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 0 5vw;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 3rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  color: var(--header-font-color);
-  margin: 2.5rem 0 2.5rem 0;
-  text-align: left;
-}
-
-h2, h3, h4, h5, h6 {
-  font-family: inherit;
-  color: var(--header-font-color);
-  font-weight: 800;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  line-height: 1.15;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.3rem;
-}
-
-.text-content p {
-  font-size: 1.22rem;
-  line-height: 1.8;
-  font-family: 'Alice', serif;
-  margin-bottom: 2rem;
-  color: var(--body-font-color);
-  text-align: left;
-}
-
-.text-content a {
-  color: var(--accent-color);
-  text-decoration: underline;
-  font-weight: 500;
-  transition: color 0.2s;
-}
-
-.text-content a:hover {
-  color: #0056b3;
-}
-
-footer {
-  margin-top: 60px;
-  font-size: 0.95rem;
-  text-align: left;
-  color: #888;
-  padding: 24px 0 0 0;
-}
-
-/* Remove nav, header, profile, social, etc. styles for minimalism */
-
-main {
-  max-width: var(--content-width);
-  margin-left: 60px;
-  margin-right: auto;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-@media (max-width: 768px) {
-  .container {
-    padding: 0 2vw;
-  }
-  main {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
-  h1 {
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 1.3rem;
-  }
-  .text-content p {
-    font-size: 1rem;
-  }
-}
-  </style>
+  <link rel="stylesheet" href="/assets/css/default4.css">
   <!-- Google Tag Manager script here -->
 </head>
 
 <body>
-  <div class="container">
-
+  <div class="content-box">
     <main>
       <!--<p style="text-align: left;"><img src="/assets/img/jannik-ai6.png" style="width: 250px;"/></p>-->
       <h1 style="text-align: left;">Jannik Schilling</h1>
-        <div class="text-content">
-          {{ content }}
-        </div>
-      </main>
-
-
-    <footer>
-      <p>&copy; 2023-2025 Jannik Schilling. All rights reserved</p>
-    </footer>
+      <div class="text-content">
+        {{ content }}
+      </div>
+      <footer>
+        <p>&copy; 2023-2025 Jannik Schilling. All rights reserved</p>
+      </footer>
+    </main>
   </div>
 </body>
 </html>

@@ -1,15 +1,11 @@
-:root {
-  --header-color: #fff;
-  --header-font-color: #2f2f2f;
-  --body-color: #fff;
-  --body-font-color: #000;
-  --space-header: 0px;
-}
+/* Only keep layout-specific overrides for page layout. Remove global styles now in main.css. */
 
-.header-content {
+.header-content,
+.main-content {
   max-width: 700px;
-  padding-bottom: 0px;
-  margin-bottom: -30px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .post-preview .p {
@@ -18,20 +14,49 @@
   line-height: 1.3em;
 }
 
+
 p {
   font-size: 18px;
-  margin: 0px;
+  margin-bottom: 0.5em;
   font-family: "Alegreya", serif;
 }
 
-h1 {
-  margin-top: 30px;
-  font-family: "Alegreya SC";
-  padding-bottom: 0px;
-  font-size: 50px;
+
+a {
+  color: var(--body-font-color);
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s;
 }
 
-h3{ font-size: 20px;font-family: 'Alegreya SC', serif;}
+ a:hover {
+  color: #0056b3;
+}
+
+h1 {
+  margin: 0 0 0.5em 0;
+  font-family: "Alegreya SC";
+  font-size: 2rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-family: 'Alegreya SC', serif;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  line-height: 1.2;
+}
+h3 {
+  font-size: 1rem;
+  font-family: 'Alegreya SC', serif;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+  font-weight: 600;
+  line-height: 1.2;
+}
 
 .date-tag {
   color: #777;
@@ -51,13 +76,61 @@ p.special-line-spacing3 {
 .post-info{
   padding-top: 3px;
   padding-bottom: 7px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 @media (max-width: 730px) {
-  p.special-line-spacing2 {
-    padding-left: 15px;
-    padding-right: 10px;
+  .content-box, .main-content, .header-content {
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
+    box-sizing: border-box;
   }
+  p.special-line-spacing2 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
 
+.post-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.2em;
+  margin-bottom: 0.7em;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 0.3em;
+}
+
+.post-date {
+  font-size: 0.97em;
+  color: #999;
+  margin: 0;
+  white-space: nowrap;
+  font-family: inherit;
+  font-style: italic;
+  min-width: 105px;
+  letter-spacing: 0.01em;
+}
+
+.post-title {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 500;
+  display: inline;
+  line-height: 1.2;
+  color: #333;
+}
+
+.post-title a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.post-title a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.post-title a:hover {
+  color: #0056b3;
 }

@@ -1,6 +1,6 @@
 ---
-title: The Schilling Point
-layout: page-template
+title: Writing
+layout: page
 permalink: /writing/
 ---
 {% for post in site.posts %}

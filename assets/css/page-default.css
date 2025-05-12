@@ -1,3 +1,4 @@
+/* Only keep layout-specific overrides for page-default layout. Remove global styles now in main.css. */
 :root {
   --max-width: 670px; /* Reduced fixed width */
   --body-color: #fff;
@@ -205,33 +206,15 @@ p {
   color: var(--body-font-color);
 }
 
-a {
-  color: var(--body-font-color);
-  border-bottom: 1px rgba(34, 34, 34, 0.69);
-  padding-bottom: 0;
-  font-weight: 400;
-  text-decoration: none;
-  transition: all 0.2s;
-  display: inline;
+ a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s;
 }
 
-a:hover {
-  color: var(--body-font-color);
-  border-bottom: 1px solid #000;
-}
-
-.grey-text a {
-  border-bottom-style: dotted;
-}
-
-.grey-text a:hover {
-  color: rgba(34, 34, 34, 0.62);
-  border-bottom-style: solid;
-  border-bottom-color: rgba(34, 34, 34, 0.62);
-}
-
-.grey-text.spacer {
-  margin-top: 0;
+ a:hover {
+  color: #0056b3;
 }
 
 /* List Styles */
@@ -652,21 +635,6 @@ p.header {
 
 p {
   color: var(--body-font-color);
-}
-
-a {
-  color: var(--body-font-color);
-  border-bottom: 1px rgba(34, 34, 34, 0.69);
-  padding-bottom: 0;
-  font-weight: 400;
-  text-decoration: none;
-  transition: all 0.2s;
-  display: inline;
-}
-
-a:hover {
-  color: var(--body-font-color);
-  border-bottom: 1px solid #000;
 }
 
 
