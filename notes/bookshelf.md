@@ -30,6 +30,7 @@ On Political Philosophy.
 1. William James: [The Moral Equivalent of War](https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_77/October_1910/The_Moral_Equivalent_of_War)
 2. Francis Bacon -- The New Atlantis
 22. Immanuel Kant: Zum Ewigen Frieden (1795)
+3. Alexandre Kojeve: [The Christian Origin of Modern Science](https://s3.us-east-1.amazonaws.com/sjcdigitalarchives/original/6dad157c7a87e6080aaecc97612892a1.pdf), [Introduction to the Reading of Hegel](https://cpb-us-w2.wpmucdn.com/u.osu.edu/dist/5/25851/files/2016/02/KOJEVE-introduction-to-the-reading-of-hegel-zg6tm7.pdf)
 8. Peter Thiel: [The Straussian Moment](https://gwern.net/doc/politics/2007-thiel.pdf) (2007), [The Optimistic Thought Experiment](https://www.hoover.org/research/optimistic-thought-experiment) (2008)
 9. Robert Howse: [The Use and Abuse of Leo Strauss in the Schmitt revival on the German Right: The Case of Heinrich Meier](https://www.law.nyu.edu/sites/default/files/ECM_PRO_060041.pdf)
 11. Friedrich Hayek: [The Use of Knowledge in Society](https://statisticaleconomics.org/wp-content/uploads/2013/03/the_use_of_knowledge_in_society_-_hayek.pdf), [The Intellectuals and Socialism](https://cdn.mises.org/Intellectuals%20and%20Socialism_4.pdf)
