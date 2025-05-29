@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <style>
+        /* Base Typography & Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.7;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            min-height: 100vh;
+        }
+
+        /* Container & Layout */
+        .letter-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            border-radius: 2px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Header Section */
+        .letter-header {
+            background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
+            color: white;
+            padding: 60px 80px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .letter-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            opacity: 0.3;
+        }
+
+        .company-name {
+            font-size: 2.5rem;
+            font-weight: 300;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .letter-title {
+            font-size: 1.8rem;
+            font-weight: 400;
+            margin-bottom: 5px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .letter-quarter {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-weight: 300;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Navigation Breadcrumb */
+        .breadcrumb {
+            padding: 20px 80px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb a {
+            color: #4a90e2;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: #357abd;
+        }
+
+        /* Main Content */
+        .letter-content {
+            padding: 80px;
+            background: white;
+        }
+
+        /* Key Metrics Section */
+        .key-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin: 40px 0 60px;
+            padding: 40px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+
+        .metric {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .metric-value {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #4a90e2;
+            margin-bottom: 5px;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+
+        .metric-label {
+            font-size: 0.9rem;
+            color: #6c757d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+
+        /* Typography Styles */
+        .letter-content h1 {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin: 50px 0 30px;
+            font-weight: 400;
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 15px;
+        }
+
+        .letter-content h2 {
+            font-size: 1.8rem;
+            color: #34495e;
+            margin: 40px 0 25px;
+            font-weight: 400;
+        }
+
+        .letter-content h3 {
+            font-size: 1.4rem;
+            color: #34495e;
+            margin: 30px 0 20px;
+            font-weight: 500;
+        }
+
+        .letter-content p {
+            margin-bottom: 25px;
+            text-align: justify;
+            font-size: 1.1rem;
+        }
+
+        .letter-content blockquote {
+            border-left: 4px solid #4a90e2;
+            padding: 25px 40px;
+            margin: 40px 0;
+            background: #f8f9fa;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #495057;
+        }
+
+        /* Signature Section */
+        .signature-section {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid #e9ecef;
+            text-align: right;
+        }
+
+        .signature-date {
+            color: #6c757d;
+            font-size: 1rem;
+            margin-bottom: 40px;
+        }
+
+        .signature-name {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .signature-title {
+            color: #6c757d;
+            font-size: 1rem;
+        }
+
+        /* Footer */
+        .letter-footer {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 40px 80px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+            }
+            .letter-container {
+                box-shadow: none;
+                max-width: none;
+            }
+            .letter-header {
+                background: #4a90e2 !important;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .letter-content,
+            .letter-header,
+            .breadcrumb,
+            .letter-footer {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+
+            .company-name {
+                font-size: 2rem;
+            }
+
+            .letter-title {
+                font-size: 1.4rem;
+            }
+
+            .key-metrics {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin: 30px 0 40px;
+                padding: 30px 20px;
+            }
+        }
+
+        /* Data Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #495057;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        /* Emphasis Elements */
+        .highlight {
+            background: linear-gradient(120deg, #4a90e2 0%, #4a90e2 100%);
+            background-repeat: no-repeat;
+            background-size: 100% 0.2em;
+            background-position: 0 88%;
+            padding: 2px 0;
+        }
+
+        .financial-figure {
+            font-family: 'Helvetica Neue', sans-serif;
+            font-weight: 600;
+            color: #4a90e2;
+        }
+    </style>
+</head>
+<body>
+    <div class="letter-container">
+        <!-- Header -->
+        <header class="letter-header">
+            <h1 class="company-name">{{ site.title | default: "JANNIK SCHILLING" }}</h1>
+            <h2 class="letter-title">{{ page.title | default: "Quarterly Letter to Shareholders" }}</h2>
+            <p class="letter-quarter">{{ page.quarter | default: "Q1 2024" }}</p>
+        </header>
+
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumb">
+            <a href="/">Home</a> / <a href="/letters">Quarterly Letters</a> / {{ page.quarter | default: "Q1 2024" }}
+        </nav>
+
+        <!-- Main Content -->
+        <main class="letter-content">
+            <!-- Key Metrics Section -->
+            {% if page.metrics %}
+            <section class="key-metrics">
+                {% for metric in page.metrics %}
+                <div class="metric">
+                    <div class="metric-value">{{ metric.value }}</div>
+                    <div class="metric-label">{{ metric.label }}</div>
+                </div>
+                {% endfor %}
+            </section>
+            {% endif %}
+
+            <!-- Letter Content -->
+            {{ content }}
+
+            <!-- Signature Section -->
+            <section class="signature-section">
+                <div class="signature-date">{{ page.date | date: "%B %d, %Y" }}</div>
+                <div class="signature-name">{{ page.author | default: "Jannik Schilling" }}</div>
+                <div class="signature-title">{{ page.author_title | default: "Founder & CEO" }}</div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="letter-footer">
+            <p>&copy; {{ "now" | date: "%Y" }} {{ site.title | default: "Jannik Schilling" }}. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
